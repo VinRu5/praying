@@ -1,413 +1,403 @@
 {
-    "rosario": {
-        "title": "Rosario",
-        "intro": {
-          "titolo": "Rosario",
-          "img": "angelo_dio.png",
-          "introText": "Il Rosario è la preghiera rivolta a Maria che è Figlia, Madre e Sposa. Le offriamo con cuore sincero questa preghiera meditando sui fatti più importanti della sua vita e del Figlio Gesù. Come si recita il Rosario…",
-          "croceText": "Nel nome del padre del Figlio e dello Spirito Santo",
-          "dioText": "V. O Dio, vieni a salvarmi.\nR. Signore, vieni presto in mio aiuto.",
-          "struttura": "si annuncia il Mistero meditando e poi si recitano:\n1 Padre Nostro\n10 Ave Maria\n1 Glori al Padre\nalla fine della recita dei 5 Misteri si recita: Salve Regina\nA seguire le Litanie Lauretane. Dopo il rosario si recitano un Padre Nostro, un’Ave Maria ed un Gloria al Padre secondo le intenzioni del Papa."
-        },
-        "misteriGaudiosi": {
-            "titolo": "Misteri Gaudiosi",
-            "giorni": "Lunedì e Sabato",
-            "misteri": [
-                {
-                  "id": 1,
-                  "titolo": "L'annunciazione dell'Angelo a Maria",
-                  "img": "gaudiosi_1.png",
-                  "brano": "Entrando da lei, disse: «Rallégrati, piena di grazia: il Signore è con te». A queste parole ella fu molto turbata e si domandava che senso avesse un saluto come questo. L'angelo le disse: «Non temere, Maria, perché hai trovato grazia presso Dio. Ed ecco, concepirai un figlio, lo darai alla luce e lo chiamerai Gesù. Sarà grande e verrà chiamato Figlio dell'Altissimo; il Signore Dio gli darà il trono di Davide suo padre e regnerà per sempre sulla casa di Giacobbe e il suo regno non avrà fine».",
-                  "riferimento": "Lc 1,28-33"
-                },
-                {
-                  "id": 2,
-                  "titolo": "La visita di Maria a Santa Elisabetta",
-                  "img": "gaudiosi_2.png",
-                  "brano": "In quei giorni Maria si alzò e andò in fretta verso la regione montuosa, in una città di Giuda. Entrata nella casa di Zaccaria, salutò Elisabetta. Appena Elisabetta ebbe udito il saluto di Maria, il bambino sussultò nel suo grembo. Elisabetta fu colmata di Spirito Santo ed esclamò a gran voce: «Benedetta tu fra le donne e benedetto il frutto del tuo grembo! A che cosa devo che la madre del mio Signore venga da me?».",
-                  "riferimento": "Lc 1,39-43"
-                },
-                {
-                  "id": 3,
-                  "titolo": "La nascita di Gesù nella grotta di Betlemme",
-                  "img": "gaudiosi_3.png",
-                  "brano": "Mentre si trovavano in quel luogo, si compirono per lei i giorni del parto. Diede alla luce il suo figlio primogenito, lo avvolse in fasce e lo pose in una mangiatoia, perché per loro non c'era posto nell'alloggio.",
-                  "riferimento": "Lc 2,6-7"
-                },
-                {
-                  "id": 4,
-                  "titolo": "La presentazione di Gesù bambino al Tempio",
-                  "img": "gaudiosi_4.png",
-                  "brano": "Quando furono compiuti i giorni della loro purificazione rituale, secondo la legge di Mosè, portarono il bambino a Gerusalemme per presentarlo al Signore - come è scritto nella legge del Signore:Ogni maschio primogenito sarà sacro al Signore - e per offrire in sacrificio una coppia di tortore o due giovani colombi, come prescrive la legge del Signore.",
-                  "riferimento": "Lc 2,22-24"
-                },
-                {
-                  "id": 5,
-                  "titolo": "Il ritrovamento di Gesù al Tempio",
-                  "img": "gaudiosi_5.png",
-                  "brano": "Dopo tre giorni lo trovarono nel tempio, seduto in mezzo ai maestri, mentre li ascoltava e li interrogava. E tutti quelli che l'udivano erano pieni di stupore per la sua intelligenza e le sue risposte. Al vederlo restarono stupiti, e sua madre gli disse: «Figlio, perché ci hai fatto questo? Ecco, tuo padre e io, angosciati, ti cercavamo». Ed egli rispose loro: «Perché mi cercavate? Non sapevate che io devo occuparmi delle cose del Padre mio?».",
-                  "riferimento": "Lc 2,46-49"
-                }
-            ]
-        },
-        "misteriLuminosi": {
-            "titolo": "Misteri Luminosi",
-            "giorni": "Giovedì",
-            "misteri": [
-                {
-                  "id": 1,
-                  "titolo": "Il battesimo di Gesù al Giordano",
-                  "img": "luminosi_1.png",
-                  "brano": "Appena battezzato, Gesù uscì dall'acqua: ed ecco, si aprirono per lui i cieli ed egli vide lo Spirito di Dio discendere come una colomba e venire sopra di lui. Ed ecco una voce dal cielo che diceva: «Questi è il Figlio mio, l'amato: in lui ho posto il mio compiacimento».",
-                  "riferimento": "Mt 3,16-17"
-                },
-                {
-                  "id": 2,
-                  "titolo": "Le Nozze di Cana",
-                  "img": "luminosi_2.png",
-                  "brano": "Venuto a mancare il vino, la madre di Gesù gli disse: «Non hanno vino». E Gesù le rispose: «Donna, che vuoi da me? Non è ancora giunta la mia ora». Sua madre disse ai servitori: «Qualsiasi cosa vi dica, fatela».",
-                  "riferimento": "Gv 2,3-5"
-                },
-                {
-                  "id": 3,
-                  "titolo": "L'annuncio del Regno di Dio con l'invito alla conversione",
-                  "img": "luminosi_3.png",
-                  "brano": "Dopo che Giovanni fu arrestato, Gesù andò nella Galilea, proclamando il vangelo di Dio, e diceva: «Il tempo è compiuto e il regno di Dio è vicino; convertitevi e credete nel Vangelo».",
-                  "riferimento": "Mc 1,14-15"
-                },
-                {
-                  "id": 4,
-                  "titolo": "La trasfigurazione di Gesù sul monte Tabor",
-                  "img": "luminosi_4.png",
-                  "brano": "Fu trasfigurato davanti a loro e le sue vesti divennero splendenti, bianchissime: nessun lavandaio sulla terra potrebbe renderle così bianche. E apparve loro Elia con Mosè e conversavano con Gesù. Prendendo la parola, Pietro disse a Gesù: «Rabbì, è bello per noi essere qui; facciamo tre capanne, una per te, una per Mosè e una per Elia»",
-                  "riferimento": "Mc 9,2-5"
-                },
-                {
-                  "id": 5,
-                  "titolo": "L'istituzione dell'eucarestia",
-                  "img": "luminosi_5.png",
-                  "brano": "Poi prese il pane, rese grazie, lo spezzò e lo diede loro dicendo: «Questo è il mio corpo, che è dato per voi; fate questo in memoria di me».",
-                  "riferimento": "Lc 22,19"
-                }
-            ]
-        },
-        "misteriDolorosi": {
-            "titolo": "Misteri Dolorosi",
-            "giorni": "Martedì e Venerdì",
-            "misteri": [
-                {
-                  "id": 1,
-                  "titolo": "L'orazione di Gesù nell'orto degli ulivi",
-                  "img": "dolorosi_1.png",
-                  "brano": "Poi si allontanò da loro circa un tiro di sasso, cadde in ginocchio e pregava dicendo: «Padre, se vuoi, allontana da me questo calice! Tuttavia non sia fatta la mia, ma la tua volontà». Gli apparve allora un angelo dal cielo per confortarlo. Entrato nella lotta, pregava più intensamente, e il suo sudore diventò come gocce di sangue che cadono a terra.",
-                  "riferimento": "Lc 22,41-44"
-                },
-                {
-                  "id": 2,
-                  "titolo": "La flagellazione di Gesù",
-                  "img": "dolorosi_2.png",
-                  "brano": "Pilato disse loro di nuovo: «Che cosa volete dunque che io faccia di quello che voi chiamate il re dei Giudei?». Ed essi di nuovo gridarono: «Crocifiggilo!». Pilato diceva loro: «Che male ha fatto?». Ma essi gridarono più forte: «Crocifiggilo!». Pilato, volendo dare soddisfazione alla folla, rimise in libertà per loro Barabba e, dopo aver fatto flagellare Gesù, lo consegnò perché fosse crocifisso.",
-                  "riferimento": "Mc 15,12-15"
-                },
-                {
-                  "id": 3,
-                  "titolo": "L'incoronazione di Spine di Gesù",
-                  "img": "dolorosi_3.png",
-                  "brano": "Allora i soldati del governatore condussero Gesù nel pretorio e gli radunarono attorno tutta la truppa. Lo spogliarono, gli fecero indossare un mantello scarlatto, intrecciarono una corona di spine, gliela posero sul capo e gli misero una canna nella mano destra. Poi, inginocchiandosi davanti a lui, lo deridevano: «Salve, re dei Giudei!». Sputandogli addosso, gli tolsero di mano la canna e lo percuotevano sul capo.",
-                  "riferimento": "Mt 27,27-30"
-                },
-                {
-                  "id": 4,
-                  "titolo": "La salita di Gesù al calvario carico della croce",
-                  "img": "dolorosi_4.png",
-                  "brano": "Essi presero Gesù ed egli, portando la croce, si avviò verso il luogo detto del Cranio, in ebraico Gòlgota, dove lo crocifissero e con lui altri due, uno da una parte e uno dall'altra, e Gesù in mezzo.",
-                  "riferimento": "Gv 19,16b-18"
-                },
-                {
-                  "id": 5,
-                  "titolo": "La Crocefissione e morte di Gesù",
-                  "img": "dolorosi_5.png",
-                  "brano": "Era già verso mezzogiorno e si fece buio su tutta la terra fino alle tre del pomeriggio, perché il sole si era eclissato. Il velo del tempio si squarciò a metà. Gesù, gridando a gran voce, disse: «Padre,nelle tue mani consegno il mio spirito». Detto questo, spirò.",
-                  "riferimento": "Lc 23,44-46"
-                }
-            ]
-        },
-        "misteriGloriosi": {
-            "titolo": "Misteri Gloriosi",
-            "giorni": "Mercoledì e Domenica",
-            "misteri": [
-                {
-                  "id": 1,
-                  "titolo": "La resurrezione di Gesù",
-                  "img": "gloriosi_1.png",
-                  "brano": "Entrate nel sepolcro, videro un giovane, seduto sulla destra, vestito d'una veste bianca, ed ebbero paura. Ma egli disse loro: «Non abbiate paura! Voi cercate Gesù Nazareno, il crocifisso. È risorto, non è qui. Ecco il luogo dove l'avevano posto. Ma andate, dite ai suoi discepoli e a Pietro: «Egli vi precede in Galilea. Là lo vedrete, come vi ha detto».",
-                  "riferimento": "Mc 16,5-7"
-                },
-                {
-                  "id": 2,
-                  "titolo": "L'ascensione di Gesù al cielo",
-                  "img": "gloriosi_2.png",
-                  "brano": "Mentre li benediceva, si staccò da loro e veniva portato su, in cielo. Ed essi si prostrarono davanti a lui; poi tornarono a Gerusalemme con grande gioia e stavano sempre nel tempio lodando Dio.",
-                  "riferimento": "Lc 24, 51-53"
-                },
-                {
-                  "id": 3,
-                  "titolo": "La discesa dello Spirito Santo su Maria e gli apostoli nel cenacolo",
-                  "img": "gloriosi_3.png",
-                  "brano": "Mentre stava compiendosi il giorno della Pentecoste, si trovavano tutti insieme nello stesso luogo. 2Venne all'improvviso dal cielo un fragore, quasi un vento che si abbatte impetuoso, e riempì tutta la casa dove stavano. 3Apparvero loro lingue come di fuoco, che si dividevano, e si posarono su ciascuno di loro, 4e tutti furono colmati di Spirito Santo e cominciarono a parlare in altre lingue, nel modo in cui lo Spirito dava loro il potere di esprimersi.",
-                  "riferimento": "At 2,1-4"
-                },
-                {
-                  "id": 4,
-                  "titolo": "L'assunzione di Maria al cielo",
-                  "img": "gloriosi_4.png",
-                  "brano": "Un segno grandioso apparve nel cielo: una donna vestita di sole, con la luna sotto i suoi piedi e, sul capo, una corona di dodici stelle.",
-                  "riferimento": "Ap 12,1"
-                },
-                {
-                  "id": 5,
-                  "titolo": "L'incoronazione di Maria nella Gloria degli Angeli e dei Santi",
-                  "img": "gloriosi_5.png",
-                  "brano": "Quelle cose che occhio non vide, né orecchio udì, né mai entrarono in cuore di uomo, Dio le ha preparate per coloro che lo amano",
-                  "riferimento": "1Cor 2,9"
-                }
-            ]
-        },
-        "litanie": {
-            "abbi":{
-                "risposta": "Abbi pietà di noi",
-                "litanie" :[
-                    "Signore, pietà",
-                    "Cristo, pietà",
-                    "Signore, pietà.",
-                    "Cristo, ascoltaci.",
-                    "Cristo, esaudiscici.",
-                    "Padre celeste, che sei Dio Figlio,",
-                    "Redentore del mondo, che sei Dio,",
-                    "Spirito Santo, che sei Dio,",
-                    "Santa Trinità, unico Dio,"
-                ]
-            },
-            "maria":{
-                "risposta": "Prega per noi",
-                "litanie" :[
-                    "Santa Maria,",
-                    "Santa Madre di Dio,",
-                    "Santa Vergine delle vergini,",
-                    "Madre di Cristo, Madre della Chiesa,",
-                    "Madre della divina grazia,",
-                    "Madre purissima,",
-                    "Madre castissima,",
-                    "Madre sempre vergine,",
-                    "Madre immacolata,",
-                    "Madre degna d'amore,",
-                    "Madre ammirabile,",
-                    "Madre del buon consiglio,",
-                    "Madre del Creatore,",
-                    "Madre del Salvatore,",
-                    "Madre di misericordia,",
-                    "Vergine prudentissima,",
-                    "Vergine degna di onore,",
-                    "Vergine degna di lode,",
-                    "Vergine potente,",
-                    "Vergine clemente,",
-                    "Vergine fedele,",
-                    "Specchio della santità divina,",
-                    "Sede della Sapienza,",
-                    "Causa della nostra letizia,",
-                    "Tempio dello Spirito Santo,",
-                    "Tabernacolo dell'eterna gloria,",
-                    "Dimora tutta consacrata a Dio,",
-                    "Rosa mistica,",
-                    "Torre di Davide,",
-                    "Torre d'avorio,",
-                    "Casa d'oro,",
-                    "Arca dell'alleanza,",
-                    "Porta del cielo,",
-                    "Stella del mattino,",
-                    "Salute degli infermi,",
-                    "Rifugio dei peccatori,",
-                    "Consolatrice degli afflitti,",
-                    "Aiuto dei cristiani,",
-                    "Regina degli Angeli,",
-                    "Regina dei Patriarchi,",
-                    "Regina dei Profeti,",
-                    "Regina degli Apostoli,",
-                    "Regina dei Martiri,",
-                    "Regina dei veri cristiani,",
-                    "Regina delle Vergini,",
-                    "Regina di tutti i Santi,",
-                    "Regina concepita senza peccato originale,",
-                    "Regina assunta in cielo,",
-                    "Regina del santo Rosario,",
-                    "Regina della famiglia,",
-                    "Regina della pace."
-                ]
-            },
-            "agnello":{
-                
-                "risposta": "Agnello di Dio che togli i peccati del mondo",
-                "litanie" :[
-                    "Perdonaci o Signore",
-                    "Ascoltaci o Signore",
-                    "Abbi pietà di noi"
-                ]
-            }
-        },
-        "finale": {
-          "img": "copertina_2.png",
-          "giaculatoria": "Prega per noi, Santa Madre di Dio.\nAffinché siamo fatti degni delle promesse di Cristo.",
-          "preghiera": "Preghiamo.\nConcedi ai tuoi fedeli, Signore Dio nostro, di godere sempre la salute del corpo e dello spirito, per la gloriosa intercessione di Maria santissima, sempre vergine, salvaci dai mali che ora ci rattristano e guidaci alla gioia senza fine. Per Cristo nostro Signore. Amen."
-        }
+  "rosario": {
+    "title": "Rosario",
+    "intro": {
+      "title": "Rosario",
+      "img": "angelo_dio.png",
+      "introText": "Il Rosario è la preghiera rivolta a Maria che è Figlia, Madre e Sposa. Le offriamo con cuore sincero questa preghiera meditando sui fatti più importanti della sua vita e del Figlio Gesù. Come si recita il Rosario…",
+      "croceText": "Nel nome del padre del Figlio e dello Spirito Santo",
+      "dioText": "V. O Dio, vieni a salvarmi.\nR. Signore, vieni presto in mio aiuto.",
+      "struttura": "si annuncia il Mistero meditando e poi si recitano:\n1 Padre Nostro\n10 Ave Maria\n1 Glori al Padre\nalla fine della recita dei 5 Misteri si recita: Salve Regina\nA seguire le Litanie Lauretane. Dopo il rosario si recitano un Padre Nostro, un’Ave Maria ed un Gloria al Padre secondo le intenzioni del Papa."
     },
-    "preghiere": {
-      "credo": {
-        "title": "Credo",
-        "img": "credo.png",
-        "text": "Credo in Dio Padre Onnipotente,\ncreatore del cielo e della terra;\ne in Gesù Cristo, nostro Signore,\nil quale fu concepito di Spirito Santo,\nnacque da Maria Vergine, patì sotto Ponzio Pilato,\nfu crocefisso, morì e fu sepolto.\nDiscese agli inferi, il terzo giorno è resuscitato secondo le Scritture.\nE’ salito al cielo, siede alla destra del Padre\ne di nuovo verrà nella gloria per giudicare i vivi e i morti.\nCredo nello Spirito Santo, la Santa chiesa Cattolica,\nla Comunione dei Santi, la remissione dei peccati,\nla resurrezione della carne, la vita eterna.\nAmen."
+    "misteriGaudiosi": {
+      "titolo": "Misteri Gaudiosi",
+      "giorni": "Lunedì e Sabato",
+      "misteri": [
+        {
+          "id": 1,
+          "titolo": "L'annunciazione dell'Angelo a Maria",
+          "img": "gaudiosi_1.png",
+          "brano": "Entrando da lei, disse: «Rallégrati, piena di grazia: il Signore è con te». A queste parole ella fu molto turbata e si domandava che senso avesse un saluto come questo. L'angelo le disse: «Non temere, Maria, perché hai trovato grazia presso Dio. Ed ecco, concepirai un figlio, lo darai alla luce e lo chiamerai Gesù. Sarà grande e verrà chiamato Figlio dell'Altissimo; il Signore Dio gli darà il trono di Davide suo padre e regnerà per sempre sulla casa di Giacobbe e il suo regno non avrà fine».",
+          "riferimento": "Lc 1,28-33"
+        },
+        {
+          "id": 2,
+          "titolo": "La visita di Maria a Santa Elisabetta",
+          "img": "gaudiosi_2.png",
+          "brano": "In quei giorni Maria si alzò e andò in fretta verso la regione montuosa, in una città di Giuda. Entrata nella casa di Zaccaria, salutò Elisabetta. Appena Elisabetta ebbe udito il saluto di Maria, il bambino sussultò nel suo grembo. Elisabetta fu colmata di Spirito Santo ed esclamò a gran voce: «Benedetta tu fra le donne e benedetto il frutto del tuo grembo! A che cosa devo che la madre del mio Signore venga da me?».",
+          "riferimento": "Lc 1,39-43"
+        },
+        {
+          "id": 3,
+          "titolo": "La nascita di Gesù nella grotta di Betlemme",
+          "img": "gaudiosi_3.png",
+          "brano": "Mentre si trovavano in quel luogo, si compirono per lei i giorni del parto. Diede alla luce il suo figlio primogenito, lo avvolse in fasce e lo pose in una mangiatoia, perché per loro non c'era posto nell'alloggio.",
+          "riferimento": "Lc 2,6-7"
+        },
+        {
+          "id": 4,
+          "titolo": "La presentazione di Gesù bambino al Tempio",
+          "img": "gaudiosi_4.png",
+          "brano": "Quando furono compiuti i giorni della loro purificazione rituale, secondo la legge di Mosè, portarono il bambino a Gerusalemme per presentarlo al Signore - come è scritto nella legge del Signore:Ogni maschio primogenito sarà sacro al Signore - e per offrire in sacrificio una coppia di tortore o due giovani colombi, come prescrive la legge del Signore.",
+          "riferimento": "Lc 2,22-24"
+        },
+        {
+          "id": 5,
+          "titolo": "Il ritrovamento di Gesù al Tempio",
+          "img": "gaudiosi_5.png",
+          "brano": "Dopo tre giorni lo trovarono nel tempio, seduto in mezzo ai maestri, mentre li ascoltava e li interrogava. E tutti quelli che l'udivano erano pieni di stupore per la sua intelligenza e le sue risposte. Al vederlo restarono stupiti, e sua madre gli disse: «Figlio, perché ci hai fatto questo? Ecco, tuo padre e io, angosciati, ti cercavamo». Ed egli rispose loro: «Perché mi cercavate? Non sapevate che io devo occuparmi delle cose del Padre mio?».",
+          "riferimento": "Lc 2,46-49"
+        }
+      ]
+    },
+    "misteriLuminosi": {
+      "titolo": "Misteri Luminosi",
+      "giorni": "Giovedì",
+      "misteri": [
+        {
+          "id": 1,
+          "titolo": "Il battesimo di Gesù al Giordano",
+          "img": "luminosi_1.png",
+          "brano": "Appena battezzato, Gesù uscì dall'acqua: ed ecco, si aprirono per lui i cieli ed egli vide lo Spirito di Dio discendere come una colomba e venire sopra di lui. Ed ecco una voce dal cielo che diceva: «Questi è il Figlio mio, l'amato: in lui ho posto il mio compiacimento».",
+          "riferimento": "Mt 3,16-17"
+        },
+        {
+          "id": 2,
+          "titolo": "Le Nozze di Cana",
+          "img": "luminosi_2.png",
+          "brano": "Venuto a mancare il vino, la madre di Gesù gli disse: «Non hanno vino». E Gesù le rispose: «Donna, che vuoi da me? Non è ancora giunta la mia ora». Sua madre disse ai servitori: «Qualsiasi cosa vi dica, fatela».",
+          "riferimento": "Gv 2,3-5"
+        },
+        {
+          "id": 3,
+          "titolo": "L'annuncio del Regno di Dio con l'invito alla conversione",
+          "img": "luminosi_3.png",
+          "brano": "Dopo che Giovanni fu arrestato, Gesù andò nella Galilea, proclamando il vangelo di Dio, e diceva: «Il tempo è compiuto e il regno di Dio è vicino; convertitevi e credete nel Vangelo».",
+          "riferimento": "Mc 1,14-15"
+        },
+        {
+          "id": 4,
+          "titolo": "La trasfigurazione di Gesù sul monte Tabor",
+          "img": "luminosi_4.png",
+          "brano": "Fu trasfigurato davanti a loro e le sue vesti divennero splendenti, bianchissime: nessun lavandaio sulla terra potrebbe renderle così bianche. E apparve loro Elia con Mosè e conversavano con Gesù. Prendendo la parola, Pietro disse a Gesù: «Rabbì, è bello per noi essere qui; facciamo tre capanne, una per te, una per Mosè e una per Elia»",
+          "riferimento": "Mc 9,2-5"
+        },
+        {
+          "id": 5,
+          "titolo": "L'istituzione dell'eucarestia",
+          "img": "luminosi_5.png",
+          "brano": "Poi prese il pane, rese grazie, lo spezzò e lo diede loro dicendo: «Questo è il mio corpo, che è dato per voi; fate questo in memoria di me».",
+          "riferimento": "Lc 22,19"
+        }
+      ]
+    },
+    "misteriDolorosi": {
+      "titolo": "Misteri Dolorosi",
+      "giorni": "Martedì e Venerdì",
+      "misteri": [
+        {
+          "id": 1,
+          "titolo": "L'orazione di Gesù nell'orto degli ulivi",
+          "img": "dolorosi_1.png",
+          "brano": "Poi si allontanò da loro circa un tiro di sasso, cadde in ginocchio e pregava dicendo: «Padre, se vuoi, allontana da me questo calice! Tuttavia non sia fatta la mia, ma la tua volontà». Gli apparve allora un angelo dal cielo per confortarlo. Entrato nella lotta, pregava più intensamente, e il suo sudore diventò come gocce di sangue che cadono a terra.",
+          "riferimento": "Lc 22,41-44"
+        },
+        {
+          "id": 2,
+          "titolo": "La flagellazione di Gesù",
+          "img": "dolorosi_2.png",
+          "brano": "Pilato disse loro di nuovo: «Che cosa volete dunque che io faccia di quello che voi chiamate il re dei Giudei?». Ed essi di nuovo gridarono: «Crocifiggilo!». Pilato diceva loro: «Che male ha fatto?». Ma essi gridarono più forte: «Crocifiggilo!». Pilato, volendo dare soddisfazione alla folla, rimise in libertà per loro Barabba e, dopo aver fatto flagellare Gesù, lo consegnò perché fosse crocifisso.",
+          "riferimento": "Mc 15,12-15"
+        },
+        {
+          "id": 3,
+          "titolo": "L'incoronazione di Spine di Gesù",
+          "img": "dolorosi_3.png",
+          "brano": "Allora i soldati del governatore condussero Gesù nel pretorio e gli radunarono attorno tutta la truppa. Lo spogliarono, gli fecero indossare un mantello scarlatto, intrecciarono una corona di spine, gliela posero sul capo e gli misero una canna nella mano destra. Poi, inginocchiandosi davanti a lui, lo deridevano: «Salve, re dei Giudei!». Sputandogli addosso, gli tolsero di mano la canna e lo percuotevano sul capo.",
+          "riferimento": "Mt 27,27-30"
+        },
+        {
+          "id": 4,
+          "titolo": "La salita di Gesù al calvario carico della croce",
+          "img": "dolorosi_4.png",
+          "brano": "Essi presero Gesù ed egli, portando la croce, si avviò verso il luogo detto del Cranio, in ebraico Gòlgota, dove lo crocifissero e con lui altri due, uno da una parte e uno dall'altra, e Gesù in mezzo.",
+          "riferimento": "Gv 19,16b-18"
+        },
+        {
+          "id": 5,
+          "titolo": "La Crocefissione e morte di Gesù",
+          "img": "dolorosi_5.png",
+          "brano": "Era già verso mezzogiorno e si fece buio su tutta la terra fino alle tre del pomeriggio, perché il sole si era eclissato. Il velo del tempio si squarciò a metà. Gesù, gridando a gran voce, disse: «Padre,nelle tue mani consegno il mio spirito». Detto questo, spirò.",
+          "riferimento": "Lc 23,44-46"
+        }
+      ]
+    },
+    "misteriGloriosi": {
+      "titolo": "Misteri Gloriosi",
+      "giorni": "Mercoledì e Domenica",
+      "misteri": [
+        {
+          "id": 1,
+          "titolo": "La resurrezione di Gesù",
+          "img": "gloriosi_1.png",
+          "brano": "Entrate nel sepolcro, videro un giovane, seduto sulla destra, vestito d'una veste bianca, ed ebbero paura. Ma egli disse loro: «Non abbiate paura! Voi cercate Gesù Nazareno, il crocifisso. È risorto, non è qui. Ecco il luogo dove l'avevano posto. Ma andate, dite ai suoi discepoli e a Pietro: «Egli vi precede in Galilea. Là lo vedrete, come vi ha detto».",
+          "riferimento": "Mc 16,5-7"
+        },
+        {
+          "id": 2,
+          "titolo": "L'ascensione di Gesù al cielo",
+          "img": "gloriosi_2.png",
+          "brano": "Mentre li benediceva, si staccò da loro e veniva portato su, in cielo. Ed essi si prostrarono davanti a lui; poi tornarono a Gerusalemme con grande gioia e stavano sempre nel tempio lodando Dio.",
+          "riferimento": "Lc 24, 51-53"
+        },
+        {
+          "id": 3,
+          "titolo": "La discesa dello Spirito Santo su Maria e gli apostoli nel cenacolo",
+          "img": "gloriosi_3.png",
+          "brano": "Mentre stava compiendosi il giorno della Pentecoste, si trovavano tutti insieme nello stesso luogo. 2Venne all'improvviso dal cielo un fragore, quasi un vento che si abbatte impetuoso, e riempì tutta la casa dove stavano. 3Apparvero loro lingue come di fuoco, che si dividevano, e si posarono su ciascuno di loro, 4e tutti furono colmati di Spirito Santo e cominciarono a parlare in altre lingue, nel modo in cui lo Spirito dava loro il potere di esprimersi.",
+          "riferimento": "At 2,1-4"
+        },
+        {
+          "id": 4,
+          "titolo": "L'assunzione di Maria al cielo",
+          "img": "gloriosi_4.png",
+          "brano": "Un segno grandioso apparve nel cielo: una donna vestita di sole, con la luna sotto i suoi piedi e, sul capo, una corona di dodici stelle.",
+          "riferimento": "Ap 12,1"
+        },
+        {
+          "id": 5,
+          "titolo": "L'incoronazione di Maria nella Gloria degli Angeli e dei Santi",
+          "img": "gloriosi_5.png",
+          "brano": "Quelle cose che occhio non vide, né orecchio udì, né mai entrarono in cuore di uomo, Dio le ha preparate per coloro che lo amano",
+          "riferimento": "1Cor 2,9"
+        }
+      ]
+    },
+    "litanie": {
+      "abbi": {
+        "risposta": "Abbi pietà di noi",
+        "litanie": [
+          "Signore, pietà",
+          "Cristo, pietà",
+          "Signore, pietà.",
+          "Cristo, ascoltaci.",
+          "Cristo, esaudiscici.",
+          "Padre celeste, che sei Dio Figlio,",
+          "Redentore del mondo, che sei Dio,",
+          "Spirito Santo, che sei Dio,",
+          "Santa Trinità, unico Dio,"
+        ]
       },
-      "padreNostro": {
-        "title": "Padre Nostro",
-        "img": "padre_nostro.png",
-        "text": "Padre nostro che sei nei cieli,\nsia santificato il tuo nome,\nvenga il tuo regno, sia fatta la tua volontà\ncome in cielo così in terra.\nDacci oggi il nostro pane quotidiano\ne rimetti a noi i nostri debiti\ncome noi li rimettiamo ai nostri debitori,\ne non ci indurre in tentazione ma liberaci dal male.\nAmen"
+      "maria": {
+        "risposta": "Prega per noi",
+        "litanie": [
+          "Santa Maria,",
+          "Santa Madre di Dio,",
+          "Santa Vergine delle vergini,",
+          "Madre di Cristo, Madre della Chiesa,",
+          "Madre della divina grazia,",
+          "Madre purissima,",
+          "Madre castissima,",
+          "Madre sempre vergine,",
+          "Madre immacolata,",
+          "Madre degna d'amore,",
+          "Madre ammirabile,",
+          "Madre del buon consiglio,",
+          "Madre del Creatore,",
+          "Madre del Salvatore,",
+          "Madre di misericordia,",
+          "Vergine prudentissima,",
+          "Vergine degna di onore,",
+          "Vergine degna di lode,",
+          "Vergine potente,",
+          "Vergine clemente,",
+          "Vergine fedele,",
+          "Specchio della santità divina,",
+          "Sede della Sapienza,",
+          "Causa della nostra letizia,",
+          "Tempio dello Spirito Santo,",
+          "Tabernacolo dell'eterna gloria,",
+          "Dimora tutta consacrata a Dio,",
+          "Rosa mistica,",
+          "Torre di Davide,",
+          "Torre d'avorio,",
+          "Casa d'oro,",
+          "Arca dell'alleanza,",
+          "Porta del cielo,",
+          "Stella del mattino,",
+          "Salute degli infermi,",
+          "Rifugio dei peccatori,",
+          "Consolatrice degli afflitti,",
+          "Aiuto dei cristiani,",
+          "Regina degli Angeli,",
+          "Regina dei Patriarchi,",
+          "Regina dei Profeti,",
+          "Regina degli Apostoli,",
+          "Regina dei Martiri,",
+          "Regina dei veri cristiani,",
+          "Regina delle Vergini,",
+          "Regina di tutti i Santi,",
+          "Regina concepita senza peccato originale,",
+          "Regina assunta in cielo,",
+          "Regina del santo Rosario,",
+          "Regina della famiglia,",
+          "Regina della pace."
+        ]
       },
-      "aveMaria": {
-        "title": "Ave Maria",
-        "img": "ave_maria.png",
-        "text": "Ave Maria piena di grazia,\nil Signore è con te.\nTu sei benedetta tra le donne\ne benedetto è il frutto del tuo seno Gesù.\nSanta Maria, Madre di Dio,\nprega per noi peccatori,\nadesso e nell'ora della nostra morte.\nAmen"
-      },
-      "gloriaAlPadre": {
-        "title": "Gloria al Padre",
-        "img": "gloria_al_padre.png",
-        "text": "Gloria al Padre e al Figlio\ne allo Spirito Santo.\nCome era nel principio, e ora e sempre\nnei secoli dei secoli. Amen. Alleluia."
-      },
-      "oGesu": {
-        "title": "O Gesù Mio",
-        "img": "gesu_mio.png",
-        "text": "O Gesù mio, perdona le nostre colpe,\npreservaci dal fuoco dell'inferno e porta in cielo tutte le anime,\nspecialmente le più bisognose della tua misericordia"
-      },
-      "salveRegina": {
-        "title": "Salve Regina",
-        "img": "salve_regina.png",
-        "text": "Salve Regina, Madre di Misericordia,\nvita dolcezza e speranza nostra, salve.\nA Te ricorriamo, esuli figli di Eva;\na Te sospiriamo gementi e piangenti\nin questa valle di lacrime.\nOrsù dunque, avvocata nostra,\nrivolgi a noi gli occhi tuoi misericordiosi.\nE mostraci, dopo questo esilio, Gesù,\nil frutto benedetto del tuo seno.\nO clemente, o pia, o dolce Vergine Maria."
-      },
-      "sanGiuseppe": {
-        "title": "Preghiera a San Giuseppe",
-        "img": "san_giuseppe.png",
-        "text": "A te, o beato Giuseppe, stretti dalla tribolazione, ricorriamo,\ne fiduciosi invochiamo il tuo patrocinio,\ndopo quello della tua santissima sposa.\nPer, quel sacro vincolo di carità,\nche ti strinse all'Immacolata Vergine Maria, Madre di Dio,\ne per l'amore paterno che portasti al fanciullo Gesù,\nriguarda, te ne preghiamo, con occhio benigno la cara eredità\nche Gesù Cristo acquistò col suo Sangue,\ne col tuo potere ed aiuto sovvieni ai nostri bisogni.\nProteggi, o provvido custode della divina Famiglia,\nl'eletta prole di Gesù Cristo: allontana da noi, o Padre amatissimo,\ngli errori e i vizi, che ammorbano il mondo;\nassistici propizio dal cielo in questa lotta col potere delle tenebre,\no nostro fortissimo protettore;\ne come un tempo salvasti dalla morte\nla minacciata vita del pargoletto Gesù,\ncosì ora difendi la santa Chiesa di Dio\ndalle ostili insidie e da ogni avversità;\ne stendi ognora sopra ciascuno di noi il tuo patrocinio,\naffinché a tuo esempio e mediante il tuo soccorso,\npossiamo virtuosamente vivere, piamente morire\ne conseguire l'eterna beatitudine in cielo.\nAmen."
-      },
-      "sanMichele": {
-        "title": "Preghiera a San Michele",
-        "img": "san_michele.png",
-        "text": "O Principe gloriosissimo delle milizie celesti,\nSan Michele Arcangelo, difendici nei combattimenti\ne nelle lotte terribili che dobbiamo sostenere in questo mondo,\ncontro il nemico infernale.\nVieni in aiuto agli uomini,\ncombatti ora coll'esercito degli angeli Santi le battaglie del Signore,\ncome già pugnasti contro il capo degli orgogliosi, Lucifero,\ne gli angeli decaduti che lo seguirono.\nTu Principe invincibile,\nsoccorri il popolo di Dio e procurali la vittoria.\nTu che la Santa Chiesa venera come custode e patrono\ne si gloria di avere a suo difensore contro le malvagie dell'inferno.\nTu a cui l'Eterno ha confidato le anime\nper condurle nella celeste beatitudine,\nprega per noi il Dio della pace,\naffinchè il demonio sia umiliato e vinto\ne più non possa tenere gli uomini\nsotto la schiavitù, nè nuocere alla santa Chiesa.\nOffri al trono dell'Altissimo le nostre preghiere\naffinchè le sue misericordie scendano tosto su di noi\ne l'infernale nemico più non possa sedurre\ne perdere il popolo cristiano.\nAmen."
-      },
-      "adorazioneMattino": {
-        "title": "Atto di Adorazione del Mattino",
-        "img": "adorazione_mattina.png",
-        "text": "Ti adoro, mio Dio, e ti amo con tutto il cuore.\nTi ringrazio di avermi creato, fatto cristiano\ne conservato in questa notte.\nTi offro le azioni della giornata:\nfa’ che siano tutte secondo la tua santa volontà\nper la tua maggior gloria.\nPreservami dal peccato e da ogni male.\nLa tua grazia sia sempre con me e con tutti i miei cari.\nAmen"
-      },
-      "adorazioneSera": {
-        "title": "Atto di Adorazione della Sera",
-        "img": "adorazione_sera.png",
-        "text": "Ti adoro, mio Dio e ti amo con tutto il cuore.\nTi ringrazio di avermi creato, fatto cristiano\ne conservato in questo giorno.\nPerdonami il male oggi commesso,\ne se qualche bene ho compiuto accettalo.\nCustodiscimi nel riposo e liberami dai pericoli.\nLa tua grazia sia sempre con me\ne con tutti i miei cari.\nVeglia su questa notte, o Signore,\nmanda i tuoi Angeli a custodirmi nella pace,\ne la tua benedizione rimanga sempre con me.\nAmen."
-      },
-      "attoFede": {
-        "title": "Atto di Fede",
-        "img": "fede.png",
-        "text": "Mio Dio, perché sei verità infallibile,\ncredo fermamente tutto quello che tu hai rivelato\ne la santa Chiesa ci propone a credere.\nEd espressamente credo in te,\nunico vero Dio in tre Persone uguali e distinte,\nPadre, Figlio e Spirito Santo.\nE credo in Gesù Cristo, Figlio di Dio,\nincarnato e morto per noi, il quale darà a ciascuno,\nsecondo i meriti, il premio o la pena eterna.\nConforme a questa fede voglio sempre vivere.\nSignore, accresci la mia fede."
-      },
-      "attoSperanza": {
-        "title": "Atto di Speranza",
-        "img": "speranza.png",
-        "text": "Mio Dio, spero dalla tua bontà,\nper le tue promesse e per i meriti di Gesù Cristo,\nnostro Salvatore, la vita eterna e le grazie necessarie per meritarla\ncon le buone opere, che io debbo e voglio fare.\nSignore, che io possa goderti in eterno."
-      },
-      "attoCarita": {
-        "title": "Atto di Carità",
-        "img": "carita.png",
-        "text": "Mio Dio, ti amo con tutto il cuore sopra ogni cosa,\nperché sei bene infinito e nostra eterna felicità;\ne per amore tuo amo il prossimo come me stesso,\ne perdono le offese ricevute.\nSignore, che io ti ami sempre più."
-      },
-      "offertaGiornata": {
-        "title": "Offerta della Giornata",
-        "img": "offerta.png",
-        "text": "Cuore divino di Gesù, io ti offro,\nper mezzo del Cuore immacolato di Maria,\nMadre della Chiesa, in unione al Sacrificio Eucaristico,\nle preghiere e le azioni, le gioie e le sofferenze di questo giorno,\nin riparazione dei peccati e per la salvezza di tutti gli uomini,\nnella grazia dello Spirito Santo, a gloria del divin Padre."
-      },
-      "angelo": {
-        "title": "Angelo di Dio",
-        "img": "angelo_custode.png",
-        "text": "Angelo di Dio, che sei il mio custode,\nillumina, custodisci, reggi e governa me,\nche ti fui affidato dalla pietà celeste.\nAmen."
-      },
-      "davantiCrocifisso": {
-        "title": "Davanti al Crocifisso",
-        "img": "davanti_al_crocifisso.png",
-        "text": "O alto e glorioso Dio,\nillumina le tenebre\ndel cuore mio.\nDammi una fede retta,\nsperanza certa,\ncarità perfetta\ne umiltà profonda.\nDammi, Signore,\nsenno e discernimento\nper compiere la tua vera\ne santa volontà.\nAmen."
-      },
-      "semplice": {
-        "title": "Preghiera Semplice",
-        "img": "semplice.png",
-        "text": "Signore, fa di me\nuno strumento della Tua Pace:\nDove è odio, fa ch'io porti l'Amore,\nDove è offesa, ch'io porti il Perdono,\nDove è discordia, ch'io porti l'Unione,\nDove è dubbio, ch'io porti la Fede,\nDove è errore, ch'io porti la Verità,\nDove è disperazione, ch'io porti la Speranza,\nDove è tristezza, ch'io porti la Gioia,\nDove sono le tenebre, ch'io porti la Luce.\nMaestro, fa che io non cerchi tanto\nAd esser consolato, quanto a consolare;\nAd essere compreso, quanto a comprendere;\nAd essere amato, quanto ad amare.\nPoiché, così è:\nDando, che si riceve;\nPerdonando, che si è perdonati;\nMorendo, che si risuscita a Vita Eterna."
-      },
-      "altissimo": {
-        "title": "Lodi di Dio Altissimo",
-        "img": "altissimo.png",
-        "text": "Tu sei santo, Signore Dio unico,\nche compi meraviglie.\nTu sei forte. Tu sei grande. Tu sei altissimo.\nTu sei Re onnipotente, tu Padre santo,\nRe del cielo e della terra.\nTu sei Trino e Uno, Signore Dio degli dei,\nTu sei bene, ogni bene, sommo bene,\nSignore Dio, vivo e vero.\nTu sei amore, carità. Tu sei sapienza.\nTu sei umiltà. Tu sei pazienza.\nTu sei bellezza. Tu sei mansuetudine\nTu sei sicurezza. Tu sei quiete.\nTu sei gaudio e letizia. Tu sei speranza nostra.\nTu sei giustizia. Tu sei temperanza.\nTu sei ogni nostra sufficiente ricchezza.\nTu sei bellezza. Tu sei mansuetudine.\nTu sei protettore. Tu sei custode e difensore nostro.\nTu sei fortezza. Tu sei refrigerio.\nTu sei speranza nostra. Tu sei fede nostra .\nTu sei carità nostra. Tu sei completa dolcezza nostra.\nTu sei nostra vita eterna,\ngrande e ammirabile Signore,\nDio onnipotente, misericordioso Salvatore."
-      },
-      "absorbeat": {
-        "title": "Preghiera \"Absorbeat\"",
-        "img": "rapisca.png",
-        "text": "Rapisca, ti prego, o Signore,\nl'ardente e dolce forza del tuo amore la mente mia\nda tutte le cose che sono sotto il cielo,\nperché io muoia per amore dell'amor tuo,\ncome tu ti sei degnato morire per amore dell'amor mio."
-      },
-      "creature": {
-        "title": "Il Cantico delle Creature",
-        "img": "creature.png",
-        "text": "Altissimo, onnipotente, bon Signore,\ntue so' le laude, la gloria e l'honore et onne benedictione.\nAd te solo, Altissimo, se konfanno,\net nullo homo ene digno te mentovare.\nLaudato sì, mi' Signore, cum tucte le tue creature,\nspetialmente messer lo frate sole,\nlo qual è iorno, et allumini noi per lui.\nEt ellu è bellu e radiante cum grande splendore:\nde te, Altissimo, porta significatione.\nLaudato si', mi' Signore, per sora luna e le stelle:\nin celu l'hai formate clarite et pretiose et belle.\nLaudato si', mi' Signore, per frate vento\net per aere et nubilo et sereno et onne tempo,\nper lo quale alle tue creature dai sustentamento.\nLaudato si', mi' Signore, per sora acqua,\nla quale è molto utile et humile et pretiosa et casta.\nLaudato si', mi' Signore, per frate focu,\nper lo quale ennallumini la nocte;\net ello è bello et iocundo et robustoso et forte.\nLaudato si', mi' Signore, per sora nostra matre terra,\nla quale ne sustenta et governa,\net produce diversi fructi con coloriti fiori et herba.\nLaudato si', mi' Signore, per quelli ke perdonano per lo tuo amore,\net sostengon infirmitate et tribulatione.\nBeati quelli ke le sosterrano in pace\nka da te, Altissimo, saranno incoronati.\nLaudato si', mi' Signore, per sora nostra morte corporale,\nda la quale nullo homo vivente pò skappare.\nGuai a quelli ke morrano ne le peccata mortali;\nbeati quelli ke trovarà ne le tue sanctissime voluntati,\nka la morte secunda nol farà male.\nLaudate et benedicete mi' Signore et rengratiate\ne servitelo cum grande humilitate."
-      },
-      "reginaCielo": {
-        "title": "Regina del Cielo",
-        "img": "regina_del_cielo.png",
-        "text": "(nel tempo pasquale)\nRegina del cielo, rallegrati (alleluia);\nperché colui che meritasti di portare (alleluia)\nè risorto come aveva predetto (alleluia).\nPrega per noi il Signore (alleluia).\n-V. Gioisci e rallegrati, Vergine Maria, alleluia!\n-R Perché il Signore è veramente risorto, alleluia!\n\nPreghiamo.\nO Dio che ti sei degnato di allietare il mondo per mezzo della risurrezione del tuo Figlio e nostro Signore Gesù Cristo, concedi che per intercessione della Madre sua, la Vergine Maria, noi possiamo ottenere i gaudi della vita eterna. Per Cristo nostro Signore. Amen."
-      },
-      "angeloSignore": {
-        "title": "L'Angelo del Signore",
-        "img": "angelo_signore.png",
-        "text": "L’angelo del Signore portò l’annunzio a Maria; ed ella concepì per opera dello Spirito Santo.\nAve Maria...\nEcco l’ancella del Signore: si faccia di me secondo la tua parola.\nAve Maria...\nIl Verbo si fece carne, e abitò fra noi.\nAve Maria...\n-V. Prega per noi, santa Madre di Dio.\n-R. E saremo fatti degni delle promesse di Cristo.\n\nPreghiamo.\nInfondi in noi la tua grazia, o Dio: tu che all’annuncio dell’angelo ci hai fatto conoscere l’incarnazione di Cristo, tuo Figlio, per la sua passione e morte, e per l’intercessione della Vergine Maria, guidaci alla gloria della risurrezione. Per Cristo nostro Signore. Amen."
-      },
-      "comunione": {
-        "title": "Comunione Spirituale",
-        "img": "comunione_spirituale.png",
-        "text": "Gesù mio,\nio credo che sei realmente presente\nnel Santissimo Sacramento.\nTi amo sopra ogni cosa\ne ti desidero nell' anima mia.\nPoiché ora non posso riceverti sacramentalmente,\nvieni almeno spiritualmente\nnel mio cuore.\nCome già venuto,\nio ti abbraccio e tutto mi unisco a te;\nnon permettere che mi abbia mai\na separare da te.\n\nEterno Padre, io ti offro\nil Sangue Preziosissimo di Gesù Cristo\nin sconto dei miei peccati,\nin suffragio delle anime del purgatorio\ne per i bisogni della Santa Chiesa."
-      },
-      "spirito_santo_caterina": {
-        "title": "Preghiera allo Spirito Santo di Santa Caterina da Siena",
-        "img": "spirito_santo.png",
-        "text": "Spirito Santo\ndiscendi nel mio cuore,\nper la tua potenza attrailo a Te\nconcedimi carità con timore.\nRiscaldami ed infiammami del tuo dolcissimo amore,\ncosì che ogni pena mi sembri leggera.\nSanto mio Padre\ndolce mio Signore\nora aiutami in questa mia azione\nCristo amore,\nCristo amore,\nCristo amore.\nAmen."
-      },
-      "spirito_santo": {
-        "title": "Vieni Santo Spirito",
-        "img": "spirito_2.png",
-        "text": "Vieni, Santo Spirito,\nmanda a noi dal cielo\nun raggio della tua luce.\n\nVieni, padre dei poveri,\nvieni; datore dei doni,\nvieni, luce dei cuori.\n\nConsolatore perfetto,\nospite dolce dell'anima,\ndolcissimo sollievo.\n\nNella fatica, riposo,\nnella calura, riparo,\nnel pianto, conforto.\n\nO luce beatissima,\ninvadi nell'intimo\nil cuore dei tuoi fedeli.\n\nSenza la tua forza,\nnulla è nell'uomo,\nnulla senza colpa.\n\nLava ciò che è sordido,\nbagna ciò che è arido,\nsana ciò che sanguina.\n\nPiega ciò che è rigido,\nscalda ciò che è gelido,\nraddrizza ciò ch'è sviato.\n\nDona ai tuoi fedeli\nche solo in te confidano\ni tuoi santi doni.\n\nDona virtù e premio,\ndona morte santa,\ndona gioia eterna. Amen."
+      "agnello": {
+        "risposta": "Agnello di Dio che togli i peccati del mondo",
+        "litanie": [
+          "Perdonaci o Signore",
+          "Ascoltaci o Signore",
+          "Abbi pietà di noi"
+        ]
       }
     },
-    "misericordina": {
-        "title": "Misericordina",
-        "img": "misericordina.png",
-        "intro": {
-            "text": "La Misericordina è la preghiera che fa arrivare la Misericordia Divina nell’anima e si recita così",
-            "croce": "Nel nome del padre del Figlio e dello Spirito Santo",
-            "preghiera": "Padre Nostro, Ave Maria, Credo"
-        },
-        "grandi": {
-            "title": "Con i grani grandi:",
-            "text": "Eterno Padre, io Ti offro il Corpo e il Sangue, l'Anima e la Divinità del Tuo dilettissimo Figlio, Nostro Signore Gesù Cristo, in espiazione dei nostri peccati e di quelli del mondo intero."
-        },
-        "piccoli": {
-            "title": "Con i grani piccoli:",
-            "text": "Per la Sua dolorosa Passione, abbi misericordia di noi e del mondo intero."
-        },
-        "finale": {
-            "text3": "Santo Dio, Santo Forte, Santo Immortale, abbi pietà di noi e del mondo intero.",
-            "text": "O Sangue e Acqua ,che scaturisti dal Cuore di Gesù come sorgente di misericordia per noi,confido in Te",
-            "croce": "Nel nome del padre del Figlio e dello Spirito Santo"
-        }
+    "finale": {
+      "img": "copertina_2.png",
+      "giaculatoria": "Prega per noi, Santa Madre di Dio.\nAffinché siamo fatti degni delle promesse di Cristo.",
+      "preghiera": "Preghiamo.\nConcedi ai tuoi fedeli, Signore Dio nostro, di godere sempre la salute del corpo e dello spirito, per la gloriosa intercessione di Maria santissima, sempre vergine, salvaci dai mali che ora ci rattristano e guidaci alla gioia senza fine. Per Cristo nostro Signore. Amen."
+    }
+  },
+  "preghiere": {
+    "credo": {
+      "title": "Credo",
+      "img": "credo.png",
+      "text": "Credo in Dio Padre Onnipotente,\ncreatore del cielo e della terra;\ne in Gesù Cristo, nostro Signore,\nil quale fu concepito di Spirito Santo,\nnacque da Maria Vergine, patì sotto Ponzio Pilato,\nfu crocefisso, morì e fu sepolto.\nDiscese agli inferi, il terzo giorno è resuscitato secondo le Scritture.\nE’ salito al cielo, siede alla destra del Padre\ne di nuovo verrà nella gloria per giudicare i vivi e i morti.\nCredo nello Spirito Santo, la Santa chiesa Cattolica,\nla Comunione dei Santi, la remissione dei peccati,\nla resurrezione della carne, la vita eterna.\nAmen."
     },
-    "img": "copertina.png"
+    "padreNostro": {
+      "title": "Padre Nostro",
+      "img": "padre_nostro.png",
+      "text": "Padre nostro che sei nei cieli,\nsia santificato il tuo nome,\nvenga il tuo regno, sia fatta la tua volontà\ncome in cielo così in terra.\nDacci oggi il nostro pane quotidiano\ne rimetti a noi i nostri debiti\ncome noi li rimettiamo ai nostri debitori,\ne non ci indurre in tentazione ma liberaci dal male.\nAmen"
+    },
+    "aveMaria": {
+      "title": "Ave Maria",
+      "img": "ave_maria.png",
+      "text": "Ave Maria piena di grazia,\nil Signore è con te.\nTu sei benedetta tra le donne\ne benedetto è il frutto del tuo seno Gesù.\nSanta Maria, Madre di Dio,\nprega per noi peccatori,\nadesso e nell'ora della nostra morte.\nAmen"
+    },
+    "gloriaAlPadre": {
+      "title": "Gloria al Padre",
+      "img": "gloria_al_padre.png",
+      "text": "Gloria al Padre e al Figlio\ne allo Spirito Santo.\nCome era nel principio, e ora e sempre\nnei secoli dei secoli. Amen. Alleluia."
+    },
+    "oGesu": {
+      "title": "O Gesù Mio",
+      "img": "gesu_mio.png",
+      "text": "O Gesù mio, perdona le nostre colpe,\npreservaci dal fuoco dell'inferno e porta in cielo tutte le anime,\nspecialmente le più bisognose della tua misericordia"
+    },
+    "salveRegina": {
+      "title": "Salve Regina",
+      "img": "salve_regina.png",
+      "text": "Salve Regina, Madre di Misericordia,\nvita dolcezza e speranza nostra, salve.\nA Te ricorriamo, esuli figli di Eva;\na Te sospiriamo gementi e piangenti\nin questa valle di lacrime.\nOrsù dunque, avvocata nostra,\nrivolgi a noi gli occhi tuoi misericordiosi.\nE mostraci, dopo questo esilio, Gesù,\nil frutto benedetto del tuo seno.\nO clemente, o pia, o dolce Vergine Maria."
+    },
+    "sanGiuseppe": {
+      "title": "Preghiera a San Giuseppe",
+      "img": "san_giuseppe.png",
+      "text": "A te, o beato Giuseppe, stretti dalla tribolazione, ricorriamo,\ne fiduciosi invochiamo il tuo patrocinio,\ndopo quello della tua santissima sposa.\nPer, quel sacro vincolo di carità,\nche ti strinse all'Immacolata Vergine Maria, Madre di Dio,\ne per l'amore paterno che portasti al fanciullo Gesù,\nriguarda, te ne preghiamo, con occhio benigno la cara eredità\nche Gesù Cristo acquistò col suo Sangue,\ne col tuo potere ed aiuto sovvieni ai nostri bisogni.\nProteggi, o provvido custode della divina Famiglia,\nl'eletta prole di Gesù Cristo: allontana da noi, o Padre amatissimo,\ngli errori e i vizi, che ammorbano il mondo;\nassistici propizio dal cielo in questa lotta col potere delle tenebre,\no nostro fortissimo protettore;\ne come un tempo salvasti dalla morte\nla minacciata vita del pargoletto Gesù,\ncosì ora difendi la santa Chiesa di Dio\ndalle ostili insidie e da ogni avversità;\ne stendi ognora sopra ciascuno di noi il tuo patrocinio,\naffinché a tuo esempio e mediante il tuo soccorso,\npossiamo virtuosamente vivere, piamente morire\ne conseguire l'eterna beatitudine in cielo.\nAmen."
+    },
+    "sanMichele": {
+      "title": "Preghiera a San Michele",
+      "img": "san_michele.png",
+      "text": "O Principe gloriosissimo delle milizie celesti,\nSan Michele Arcangelo, difendici nei combattimenti\ne nelle lotte terribili che dobbiamo sostenere in questo mondo,\ncontro il nemico infernale.\nVieni in aiuto agli uomini,\ncombatti ora coll'esercito degli angeli Santi le battaglie del Signore,\ncome già pugnasti contro il capo degli orgogliosi, Lucifero,\ne gli angeli decaduti che lo seguirono.\nTu Principe invincibile,\nsoccorri il popolo di Dio e procurali la vittoria.\nTu che la Santa Chiesa venera come custode e patrono\ne si gloria di avere a suo difensore contro le malvagie dell'inferno.\nTu a cui l'Eterno ha confidato le anime\nper condurle nella celeste beatitudine,\nprega per noi il Dio della pace,\naffinchè il demonio sia umiliato e vinto\ne più non possa tenere gli uomini\nsotto la schiavitù, nè nuocere alla santa Chiesa.\nOffri al trono dell'Altissimo le nostre preghiere\naffinchè le sue misericordie scendano tosto su di noi\ne l'infernale nemico più non possa sedurre\ne perdere il popolo cristiano.\nAmen."
+    },
+    "adorazioneMattino": {
+      "title": "Atto di Adorazione del Mattino",
+      "img": "adorazione_mattina.png",
+      "text": "Ti adoro, mio Dio, e ti amo con tutto il cuore.\nTi ringrazio di avermi creato, fatto cristiano\ne conservato in questa notte.\nTi offro le azioni della giornata:\nfa’ che siano tutte secondo la tua santa volontà\nper la tua maggior gloria.\nPreservami dal peccato e da ogni male.\nLa tua grazia sia sempre con me e con tutti i miei cari.\nAmen"
+    },
+    "adorazioneSera": {
+      "title": "Atto di Adorazione della Sera",
+      "img": "adorazione_sera.png",
+      "text": "Ti adoro, mio Dio e ti amo con tutto il cuore.\nTi ringrazio di avermi creato, fatto cristiano\ne conservato in questo giorno.\nPerdonami il male oggi commesso,\ne se qualche bene ho compiuto accettalo.\nCustodiscimi nel riposo e liberami dai pericoli.\nLa tua grazia sia sempre con me\ne con tutti i miei cari.\nVeglia su questa notte, o Signore,\nmanda i tuoi Angeli a custodirmi nella pace,\ne la tua benedizione rimanga sempre con me.\nAmen."
+    },
+    "attoFede": {
+      "title": "Atto di Fede",
+      "img": "fede.png",
+      "text": "Mio Dio, perché sei verità infallibile,\ncredo fermamente tutto quello che tu hai rivelato\ne la santa Chiesa ci propone a credere.\nEd espressamente credo in te,\nunico vero Dio in tre Persone uguali e distinte,\nPadre, Figlio e Spirito Santo.\nE credo in Gesù Cristo, Figlio di Dio,\nincarnato e morto per noi, il quale darà a ciascuno,\nsecondo i meriti, il premio o la pena eterna.\nConforme a questa fede voglio sempre vivere.\nSignore, accresci la mia fede."
+    },
+    "attoSperanza": {
+      "title": "Atto di Speranza",
+      "img": "speranza.png",
+      "text": "Mio Dio, spero dalla tua bontà,\nper le tue promesse e per i meriti di Gesù Cristo,\nnostro Salvatore, la vita eterna e le grazie necessarie per meritarla\ncon le buone opere, che io debbo e voglio fare.\nSignore, che io possa goderti in eterno."
+    },
+    "attoCarita": {
+      "title": "Atto di Carità",
+      "img": "carita.png",
+      "text": "Mio Dio, ti amo con tutto il cuore sopra ogni cosa,\nperché sei bene infinito e nostra eterna felicità;\ne per amore tuo amo il prossimo come me stesso,\ne perdono le offese ricevute.\nSignore, che io ti ami sempre più."
+    },
+    "offertaGiornata": {
+      "title": "Offerta della Giornata",
+      "img": "offerta.png",
+      "text": "Cuore divino di Gesù, io ti offro,\nper mezzo del Cuore immacolato di Maria,\nMadre della Chiesa, in unione al Sacrificio Eucaristico,\nle preghiere e le azioni, le gioie e le sofferenze di questo giorno,\nin riparazione dei peccati e per la salvezza di tutti gli uomini,\nnella grazia dello Spirito Santo, a gloria del divin Padre."
+    },
+    "angelo": {
+      "title": "Angelo di Dio",
+      "img": "angelo_custode.png",
+      "text": "Angelo di Dio, che sei il mio custode,\nillumina, custodisci, reggi e governa me,\nche ti fui affidato dalla pietà celeste.\nAmen."
+    },
+    "davantiCrocifisso": {
+      "title": "Davanti al Crocifisso",
+      "img": "davanti_al_crocifisso.png",
+      "text": "O alto e glorioso Dio,\nillumina le tenebre\ndel cuore mio.\nDammi una fede retta,\nsperanza certa,\ncarità perfetta\ne umiltà profonda.\nDammi, Signore,\nsenno e discernimento\nper compiere la tua vera\ne santa volontà.\nAmen."
+    },
+    "semplice": {
+      "title": "Preghiera Semplice",
+      "img": "semplice.png",
+      "text": "Signore, fa di me\nuno strumento della Tua Pace:\nDove è odio, fa ch'io porti l'Amore,\nDove è offesa, ch'io porti il Perdono,\nDove è discordia, ch'io porti l'Unione,\nDove è dubbio, ch'io porti la Fede,\nDove è errore, ch'io porti la Verità,\nDove è disperazione, ch'io porti la Speranza,\nDove è tristezza, ch'io porti la Gioia,\nDove sono le tenebre, ch'io porti la Luce.\nMaestro, fa che io non cerchi tanto\nAd esser consolato, quanto a consolare;\nAd essere compreso, quanto a comprendere;\nAd essere amato, quanto ad amare.\nPoiché, così è:\nDando, che si riceve;\nPerdonando, che si è perdonati;\nMorendo, che si risuscita a Vita Eterna."
+    },
+    "altissimo": {
+      "title": "Lodi di Dio Altissimo",
+      "img": "altissimo.png",
+      "text": "Tu sei santo, Signore Dio unico,\nche compi meraviglie.\nTu sei forte. Tu sei grande. Tu sei altissimo.\nTu sei Re onnipotente, tu Padre santo,\nRe del cielo e della terra.\nTu sei Trino e Uno, Signore Dio degli dei,\nTu sei bene, ogni bene, sommo bene,\nSignore Dio, vivo e vero.\nTu sei amore, carità. Tu sei sapienza.\nTu sei umiltà. Tu sei pazienza.\nTu sei bellezza. Tu sei mansuetudine\nTu sei sicurezza. Tu sei quiete.\nTu sei gaudio e letizia. Tu sei speranza nostra.\nTu sei giustizia. Tu sei temperanza.\nTu sei ogni nostra sufficiente ricchezza.\nTu sei bellezza. Tu sei mansuetudine.\nTu sei protettore. Tu sei custode e difensore nostro.\nTu sei fortezza. Tu sei refrigerio.\nTu sei speranza nostra. Tu sei fede nostra .\nTu sei carità nostra. Tu sei completa dolcezza nostra.\nTu sei nostra vita eterna,\ngrande e ammirabile Signore,\nDio onnipotente, misericordioso Salvatore."
+    },
+    "absorbeat": {
+      "title": "Preghiera \"Absorbeat\"",
+      "img": "rapisca.png",
+      "text": "Rapisca, ti prego, o Signore,\nl'ardente e dolce forza del tuo amore la mente mia\nda tutte le cose che sono sotto il cielo,\nperché io muoia per amore dell'amor tuo,\ncome tu ti sei degnato morire per amore dell'amor mio."
+    },
+    "creature": {
+      "title": "Il Cantico delle Creature",
+      "img": "creature.png",
+      "text": "Altissimo, onnipotente, bon Signore,\ntue so' le laude, la gloria e l'honore et onne benedictione.\nAd te solo, Altissimo, se konfanno,\net nullo homo ene digno te mentovare.\nLaudato sì, mi' Signore, cum tucte le tue creature,\nspetialmente messer lo frate sole,\nlo qual è iorno, et allumini noi per lui.\nEt ellu è bellu e radiante cum grande splendore:\nde te, Altissimo, porta significatione.\nLaudato si', mi' Signore, per sora luna e le stelle:\nin celu l'hai formate clarite et pretiose et belle.\nLaudato si', mi' Signore, per frate vento\net per aere et nubilo et sereno et onne tempo,\nper lo quale alle tue creature dai sustentamento.\nLaudato si', mi' Signore, per sora acqua,\nla quale è molto utile et humile et pretiosa et casta.\nLaudato si', mi' Signore, per frate focu,\nper lo quale ennallumini la nocte;\net ello è bello et iocundo et robustoso et forte.\nLaudato si', mi' Signore, per sora nostra matre terra,\nla quale ne sustenta et governa,\net produce diversi fructi con coloriti fiori et herba.\nLaudato si', mi' Signore, per quelli ke perdonano per lo tuo amore,\net sostengon infirmitate et tribulatione.\nBeati quelli ke le sosterrano in pace\nka da te, Altissimo, saranno incoronati.\nLaudato si', mi' Signore, per sora nostra morte corporale,\nda la quale nullo homo vivente pò skappare.\nGuai a quelli ke morrano ne le peccata mortali;\nbeati quelli ke trovarà ne le tue sanctissime voluntati,\nka la morte secunda nol farà male.\nLaudate et benedicete mi' Signore et rengratiate\ne servitelo cum grande humilitate."
+    },
+    "reginaCielo": {
+      "title": "Regina del Cielo",
+      "img": "regina_del_cielo.png",
+      "text": "(nel tempo pasquale)\nRegina del cielo, rallegrati (alleluia);\nperché colui che meritasti di portare (alleluia)\nè risorto come aveva predetto (alleluia).\nPrega per noi il Signore (alleluia).\n-V. Gioisci e rallegrati, Vergine Maria, alleluia!\n-R Perché il Signore è veramente risorto, alleluia!\n\nPreghiamo.\nO Dio che ti sei degnato di allietare il mondo per mezzo della risurrezione del tuo Figlio e nostro Signore Gesù Cristo, concedi che per intercessione della Madre sua, la Vergine Maria, noi possiamo ottenere i gaudi della vita eterna. Per Cristo nostro Signore. Amen."
+    },
+    "comunione": {
+      "title": "Comunione Spirituale",
+      "img": "comunione_spirituale.png",
+      "text": "Gesù mio,\nio credo che sei realmente presente\nnel Santissimo Sacramento.\nTi amo sopra ogni cosa\ne ti desidero nell' anima mia.\nPoiché ora non posso riceverti sacramentalmente,\nvieni almeno spiritualmente\nnel mio cuore.\nCome già venuto,\nio ti abbraccio e tutto mi unisco a te;\nnon permettere che mi abbia mai\na separare da te.\n\nEterno Padre, io ti offro\nil Sangue Preziosissimo di Gesù Cristo\nin sconto dei miei peccati,\nin suffragio delle anime del purgatorio\ne per i bisogni della Santa Chiesa."
+    },
+    "spirito_santo_caterina": {
+      "title": "Preghiera allo Spirito Santo di Santa Caterina da Siena",
+      "img": "spirito_santo.png",
+      "text": "Spirito Santo\ndiscendi nel mio cuore,\nper la tua potenza attrailo a Te\nconcedimi carità con timore.\nRiscaldami ed infiammami del tuo dolcissimo amore,\ncosì che ogni pena mi sembri leggera.\nSanto mio Padre\ndolce mio Signore\nora aiutami in questa mia azione\nCristo amore,\nCristo amore,\nCristo amore.\nAmen."
+    },
+    "spirito_santo": {
+      "title": "Vieni Santo Spirito",
+      "img": "spirito_2.png",
+      "text": "Vieni, Santo Spirito,\nmanda a noi dal cielo\nun raggio della tua luce.\n\nVieni, padre dei poveri,\nvieni; datore dei doni,\nvieni, luce dei cuori.\n\nConsolatore perfetto,\nospite dolce dell'anima,\ndolcissimo sollievo.\n\nNella fatica, riposo,\nnella calura, riparo,\nnel pianto, conforto.\n\nO luce beatissima,\ninvadi nell'intimo\nil cuore dei tuoi fedeli.\n\nSenza la tua forza,\nnulla è nell'uomo,\nnulla senza colpa.\n\nLava ciò che è sordido,\nbagna ciò che è arido,\nsana ciò che sanguina.\n\nPiega ciò che è rigido,\nscalda ciò che è gelido,\nraddrizza ciò ch'è sviato.\n\nDona ai tuoi fedeli\nche solo in te confidano\ni tuoi santi doni.\n\nDona virtù e premio,\ndona morte santa,\ndona gioia eterna. Amen."
+    }
+  },
+  "misericordina": {
+    "title": "Misericordina",
+    "img": "misericordina.png",
+    "intro": "La Misericordina è la preghiera che fa arrivare la Misericordia Divina nell’anima e si recita così",
+    "croce": "Nel nome del padre del Figlio e dello Spirito Santo",
+    "preghiera": "Padre Nostro, Ave Maria, Credo",
+    "grandi": {
+      "title": "Con i grani grandi:",
+      "text": "Eterno Padre, io Ti offro il Corpo e il Sangue, l'Anima e la Divinità del Tuo dilettissimo Figlio, Nostro Signore Gesù Cristo, in espiazione dei nostri peccati e di quelli del mondo intero."
+    },
+    "piccoli": {
+      "title": "Con i grani piccoli:",
+      "text": "Per la Sua dolorosa Passione, abbi misericordia di noi e del mondo intero."
+    },
+    "text3": "Santo Dio, Santo Forte, Santo Immortale, abbi pietà di noi e del mondo intero.",
+    "text": "O Sangue e Acqua ,che scaturisti dal Cuore di Gesù come sorgente di misericordia per noi,confido in Te"
+  },
+  "img": "copertina.png",
+  "title": "Praying"
 }
