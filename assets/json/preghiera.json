@@ -5,170 +5,170 @@
       "title": "Rosario",
       "img": "angelo_dio.png",
       "introText": "Il Rosario è la preghiera rivolta a Maria che è Figlia, Madre e Sposa. Le offriamo con cuore sincero questa preghiera meditando sui fatti più importanti della sua vita e del Figlio Gesù. Come si recita il Rosario…",
-      "croceText": "Nel nome del padre del Figlio e dello Spirito Santo",
+      "croce": "Nel nome del padre del Figlio e dello Spirito Santo",
       "dioText": "V. O Dio, vieni a salvarmi.\nR. Signore, vieni presto in mio aiuto.",
       "struttura": "si annuncia il Mistero meditando e poi si recitano:\n1 Padre Nostro\n10 Ave Maria\n1 Glori al Padre\nalla fine della recita dei 5 Misteri si recita: Salve Regina\nA seguire le Litanie Lauretane. Dopo il rosario si recitano un Padre Nostro, un’Ave Maria ed un Gloria al Padre secondo le intenzioni del Papa."
     },
     "misteriGaudiosi": {
-      "titolo": "Misteri Gaudiosi",
+      "title": "Misteri Gaudiosi",
       "giorni": "Lunedì e Sabato",
       "misteri": [
         {
           "id": 1,
-          "titolo": "L'annunciazione dell'Angelo a Maria",
+          "title": "L'annunciazione dell'Angelo a Maria",
           "img": "gaudiosi_1.png",
-          "brano": "Entrando da lei, disse: «Rallégrati, piena di grazia: il Signore è con te». A queste parole ella fu molto turbata e si domandava che senso avesse un saluto come questo. L'angelo le disse: «Non temere, Maria, perché hai trovato grazia presso Dio. Ed ecco, concepirai un figlio, lo darai alla luce e lo chiamerai Gesù. Sarà grande e verrà chiamato Figlio dell'Altissimo; il Signore Dio gli darà il trono di Davide suo padre e regnerà per sempre sulla casa di Giacobbe e il suo regno non avrà fine».",
+          "text": "Entrando da lei, disse: «Rallégrati, piena di grazia: il Signore è con te». A queste parole ella fu molto turbata e si domandava che senso avesse un saluto come questo. L'angelo le disse: «Non temere, Maria, perché hai trovato grazia presso Dio. Ed ecco, concepirai un figlio, lo darai alla luce e lo chiamerai Gesù. Sarà grande e verrà chiamato Figlio dell'Altissimo; il Signore Dio gli darà il trono di Davide suo padre e regnerà per sempre sulla casa di Giacobbe e il suo regno non avrà fine».",
           "riferimento": "Lc 1,28-33"
         },
         {
           "id": 2,
-          "titolo": "La visita di Maria a Santa Elisabetta",
+          "title": "La visita di Maria a Santa Elisabetta",
           "img": "gaudiosi_2.png",
-          "brano": "In quei giorni Maria si alzò e andò in fretta verso la regione montuosa, in una città di Giuda. Entrata nella casa di Zaccaria, salutò Elisabetta. Appena Elisabetta ebbe udito il saluto di Maria, il bambino sussultò nel suo grembo. Elisabetta fu colmata di Spirito Santo ed esclamò a gran voce: «Benedetta tu fra le donne e benedetto il frutto del tuo grembo! A che cosa devo che la madre del mio Signore venga da me?».",
+          "text": "In quei giorni Maria si alzò e andò in fretta verso la regione montuosa, in una città di Giuda. Entrata nella casa di Zaccaria, salutò Elisabetta. Appena Elisabetta ebbe udito il saluto di Maria, il bambino sussultò nel suo grembo. Elisabetta fu colmata di Spirito Santo ed esclamò a gran voce: «Benedetta tu fra le donne e benedetto il frutto del tuo grembo! A che cosa devo che la madre del mio Signore venga da me?».",
           "riferimento": "Lc 1,39-43"
         },
         {
           "id": 3,
-          "titolo": "La nascita di Gesù nella grotta di Betlemme",
+          "title": "La nascita di Gesù nella grotta di Betlemme",
           "img": "gaudiosi_3.png",
-          "brano": "Mentre si trovavano in quel luogo, si compirono per lei i giorni del parto. Diede alla luce il suo figlio primogenito, lo avvolse in fasce e lo pose in una mangiatoia, perché per loro non c'era posto nell'alloggio.",
+          "text": "Mentre si trovavano in quel luogo, si compirono per lei i giorni del parto. Diede alla luce il suo figlio primogenito, lo avvolse in fasce e lo pose in una mangiatoia, perché per loro non c'era posto nell'alloggio.",
           "riferimento": "Lc 2,6-7"
         },
         {
           "id": 4,
-          "titolo": "La presentazione di Gesù bambino al Tempio",
+          "title": "La presentazione di Gesù bambino al Tempio",
           "img": "gaudiosi_4.png",
-          "brano": "Quando furono compiuti i giorni della loro purificazione rituale, secondo la legge di Mosè, portarono il bambino a Gerusalemme per presentarlo al Signore - come è scritto nella legge del Signore:Ogni maschio primogenito sarà sacro al Signore - e per offrire in sacrificio una coppia di tortore o due giovani colombi, come prescrive la legge del Signore.",
+          "text": "Quando furono compiuti i giorni della loro purificazione rituale, secondo la legge di Mosè, portarono il bambino a Gerusalemme per presentarlo al Signore - come è scritto nella legge del Signore:Ogni maschio primogenito sarà sacro al Signore - e per offrire in sacrificio una coppia di tortore o due giovani colombi, come prescrive la legge del Signore.",
           "riferimento": "Lc 2,22-24"
         },
         {
           "id": 5,
-          "titolo": "Il ritrovamento di Gesù al Tempio",
+          "title": "Il ritrovamento di Gesù al Tempio",
           "img": "gaudiosi_5.png",
-          "brano": "Dopo tre giorni lo trovarono nel tempio, seduto in mezzo ai maestri, mentre li ascoltava e li interrogava. E tutti quelli che l'udivano erano pieni di stupore per la sua intelligenza e le sue risposte. Al vederlo restarono stupiti, e sua madre gli disse: «Figlio, perché ci hai fatto questo? Ecco, tuo padre e io, angosciati, ti cercavamo». Ed egli rispose loro: «Perché mi cercavate? Non sapevate che io devo occuparmi delle cose del Padre mio?».",
+          "text": "Dopo tre giorni lo trovarono nel tempio, seduto in mezzo ai maestri, mentre li ascoltava e li interrogava. E tutti quelli che l'udivano erano pieni di stupore per la sua intelligenza e le sue risposte. Al vederlo restarono stupiti, e sua madre gli disse: «Figlio, perché ci hai fatto questo? Ecco, tuo padre e io, angosciati, ti cercavamo». Ed egli rispose loro: «Perché mi cercavate? Non sapevate che io devo occuparmi delle cose del Padre mio?».",
           "riferimento": "Lc 2,46-49"
         }
       ]
     },
     "misteriLuminosi": {
-      "titolo": "Misteri Luminosi",
+      "title": "Misteri Luminosi",
       "giorni": "Giovedì",
       "misteri": [
         {
           "id": 1,
-          "titolo": "Il battesimo di Gesù al Giordano",
+          "title": "Il battesimo di Gesù al Giordano",
           "img": "luminosi_1.png",
-          "brano": "Appena battezzato, Gesù uscì dall'acqua: ed ecco, si aprirono per lui i cieli ed egli vide lo Spirito di Dio discendere come una colomba e venire sopra di lui. Ed ecco una voce dal cielo che diceva: «Questi è il Figlio mio, l'amato: in lui ho posto il mio compiacimento».",
+          "text": "Appena battezzato, Gesù uscì dall'acqua: ed ecco, si aprirono per lui i cieli ed egli vide lo Spirito di Dio discendere come una colomba e venire sopra di lui. Ed ecco una voce dal cielo che diceva: «Questi è il Figlio mio, l'amato: in lui ho posto il mio compiacimento».",
           "riferimento": "Mt 3,16-17"
         },
         {
           "id": 2,
-          "titolo": "Le Nozze di Cana",
+          "title": "Le Nozze di Cana",
           "img": "luminosi_2.png",
-          "brano": "Venuto a mancare il vino, la madre di Gesù gli disse: «Non hanno vino». E Gesù le rispose: «Donna, che vuoi da me? Non è ancora giunta la mia ora». Sua madre disse ai servitori: «Qualsiasi cosa vi dica, fatela».",
+          "text": "Venuto a mancare il vino, la madre di Gesù gli disse: «Non hanno vino». E Gesù le rispose: «Donna, che vuoi da me? Non è ancora giunta la mia ora». Sua madre disse ai servitori: «Qualsiasi cosa vi dica, fatela».",
           "riferimento": "Gv 2,3-5"
         },
         {
           "id": 3,
-          "titolo": "L'annuncio del Regno di Dio con l'invito alla conversione",
+          "title": "L'annuncio del Regno di Dio con l'invito alla conversione",
           "img": "luminosi_3.png",
-          "brano": "Dopo che Giovanni fu arrestato, Gesù andò nella Galilea, proclamando il vangelo di Dio, e diceva: «Il tempo è compiuto e il regno di Dio è vicino; convertitevi e credete nel Vangelo».",
+          "text": "Dopo che Giovanni fu arrestato, Gesù andò nella Galilea, proclamando il vangelo di Dio, e diceva: «Il tempo è compiuto e il regno di Dio è vicino; convertitevi e credete nel Vangelo».",
           "riferimento": "Mc 1,14-15"
         },
         {
           "id": 4,
-          "titolo": "La trasfigurazione di Gesù sul monte Tabor",
+          "title": "La trasfigurazione di Gesù sul monte Tabor",
           "img": "luminosi_4.png",
-          "brano": "Fu trasfigurato davanti a loro e le sue vesti divennero splendenti, bianchissime: nessun lavandaio sulla terra potrebbe renderle così bianche. E apparve loro Elia con Mosè e conversavano con Gesù. Prendendo la parola, Pietro disse a Gesù: «Rabbì, è bello per noi essere qui; facciamo tre capanne, una per te, una per Mosè e una per Elia»",
+          "text": "Fu trasfigurato davanti a loro e le sue vesti divennero splendenti, bianchissime: nessun lavandaio sulla terra potrebbe renderle così bianche. E apparve loro Elia con Mosè e conversavano con Gesù. Prendendo la parola, Pietro disse a Gesù: «Rabbì, è bello per noi essere qui; facciamo tre capanne, una per te, una per Mosè e una per Elia»",
           "riferimento": "Mc 9,2-5"
         },
         {
           "id": 5,
-          "titolo": "L'istituzione dell'eucarestia",
+          "title": "L'istituzione dell'eucarestia",
           "img": "luminosi_5.png",
-          "brano": "Poi prese il pane, rese grazie, lo spezzò e lo diede loro dicendo: «Questo è il mio corpo, che è dato per voi; fate questo in memoria di me».",
+          "text": "Poi prese il pane, rese grazie, lo spezzò e lo diede loro dicendo: «Questo è il mio corpo, che è dato per voi; fate questo in memoria di me».",
           "riferimento": "Lc 22,19"
         }
       ]
     },
     "misteriDolorosi": {
-      "titolo": "Misteri Dolorosi",
+      "title": "Misteri Dolorosi",
       "giorni": "Martedì e Venerdì",
       "misteri": [
         {
           "id": 1,
-          "titolo": "L'orazione di Gesù nell'orto degli ulivi",
+          "title": "L'orazione di Gesù nell'orto degli ulivi",
           "img": "dolorosi_1.png",
-          "brano": "Poi si allontanò da loro circa un tiro di sasso, cadde in ginocchio e pregava dicendo: «Padre, se vuoi, allontana da me questo calice! Tuttavia non sia fatta la mia, ma la tua volontà». Gli apparve allora un angelo dal cielo per confortarlo. Entrato nella lotta, pregava più intensamente, e il suo sudore diventò come gocce di sangue che cadono a terra.",
+          "text": "Poi si allontanò da loro circa un tiro di sasso, cadde in ginocchio e pregava dicendo: «Padre, se vuoi, allontana da me questo calice! Tuttavia non sia fatta la mia, ma la tua volontà». Gli apparve allora un angelo dal cielo per confortarlo. Entrato nella lotta, pregava più intensamente, e il suo sudore diventò come gocce di sangue che cadono a terra.",
           "riferimento": "Lc 22,41-44"
         },
         {
           "id": 2,
-          "titolo": "La flagellazione di Gesù",
+          "title": "La flagellazione di Gesù",
           "img": "dolorosi_2.png",
-          "brano": "Pilato disse loro di nuovo: «Che cosa volete dunque che io faccia di quello che voi chiamate il re dei Giudei?». Ed essi di nuovo gridarono: «Crocifiggilo!». Pilato diceva loro: «Che male ha fatto?». Ma essi gridarono più forte: «Crocifiggilo!». Pilato, volendo dare soddisfazione alla folla, rimise in libertà per loro Barabba e, dopo aver fatto flagellare Gesù, lo consegnò perché fosse crocifisso.",
+          "text": "Pilato disse loro di nuovo: «Che cosa volete dunque che io faccia di quello che voi chiamate il re dei Giudei?». Ed essi di nuovo gridarono: «Crocifiggilo!». Pilato diceva loro: «Che male ha fatto?». Ma essi gridarono più forte: «Crocifiggilo!». Pilato, volendo dare soddisfazione alla folla, rimise in libertà per loro Barabba e, dopo aver fatto flagellare Gesù, lo consegnò perché fosse crocifisso.",
           "riferimento": "Mc 15,12-15"
         },
         {
           "id": 3,
-          "titolo": "L'incoronazione di Spine di Gesù",
+          "title": "L'incoronazione di Spine di Gesù",
           "img": "dolorosi_3.png",
-          "brano": "Allora i soldati del governatore condussero Gesù nel pretorio e gli radunarono attorno tutta la truppa. Lo spogliarono, gli fecero indossare un mantello scarlatto, intrecciarono una corona di spine, gliela posero sul capo e gli misero una canna nella mano destra. Poi, inginocchiandosi davanti a lui, lo deridevano: «Salve, re dei Giudei!». Sputandogli addosso, gli tolsero di mano la canna e lo percuotevano sul capo.",
+          "text": "Allora i soldati del governatore condussero Gesù nel pretorio e gli radunarono attorno tutta la truppa. Lo spogliarono, gli fecero indossare un mantello scarlatto, intrecciarono una corona di spine, gliela posero sul capo e gli misero una canna nella mano destra. Poi, inginocchiandosi davanti a lui, lo deridevano: «Salve, re dei Giudei!». Sputandogli addosso, gli tolsero di mano la canna e lo percuotevano sul capo.",
           "riferimento": "Mt 27,27-30"
         },
         {
           "id": 4,
-          "titolo": "La salita di Gesù al calvario carico della croce",
+          "title": "La salita di Gesù al calvario carico della croce",
           "img": "dolorosi_4.png",
-          "brano": "Essi presero Gesù ed egli, portando la croce, si avviò verso il luogo detto del Cranio, in ebraico Gòlgota, dove lo crocifissero e con lui altri due, uno da una parte e uno dall'altra, e Gesù in mezzo.",
+          "text": "Essi presero Gesù ed egli, portando la croce, si avviò verso il luogo detto del Cranio, in ebraico Gòlgota, dove lo crocifissero e con lui altri due, uno da una parte e uno dall'altra, e Gesù in mezzo.",
           "riferimento": "Gv 19,16b-18"
         },
         {
           "id": 5,
-          "titolo": "La Crocefissione e morte di Gesù",
+          "title": "La Crocefissione e morte di Gesù",
           "img": "dolorosi_5.png",
-          "brano": "Era già verso mezzogiorno e si fece buio su tutta la terra fino alle tre del pomeriggio, perché il sole si era eclissato. Il velo del tempio si squarciò a metà. Gesù, gridando a gran voce, disse: «Padre,nelle tue mani consegno il mio spirito». Detto questo, spirò.",
+          "text": "Era già verso mezzogiorno e si fece buio su tutta la terra fino alle tre del pomeriggio, perché il sole si era eclissato. Il velo del tempio si squarciò a metà. Gesù, gridando a gran voce, disse: «Padre,nelle tue mani consegno il mio spirito». Detto questo, spirò.",
           "riferimento": "Lc 23,44-46"
         }
       ]
     },
     "misteriGloriosi": {
-      "titolo": "Misteri Gloriosi",
+      "title": "Misteri Gloriosi",
       "giorni": "Mercoledì e Domenica",
       "misteri": [
         {
           "id": 1,
-          "titolo": "La resurrezione di Gesù",
+          "title": "La resurrezione di Gesù",
           "img": "gloriosi_1.png",
-          "brano": "Entrate nel sepolcro, videro un giovane, seduto sulla destra, vestito d'una veste bianca, ed ebbero paura. Ma egli disse loro: «Non abbiate paura! Voi cercate Gesù Nazareno, il crocifisso. È risorto, non è qui. Ecco il luogo dove l'avevano posto. Ma andate, dite ai suoi discepoli e a Pietro: «Egli vi precede in Galilea. Là lo vedrete, come vi ha detto».",
+          "text": "Entrate nel sepolcro, videro un giovane, seduto sulla destra, vestito d'una veste bianca, ed ebbero paura. Ma egli disse loro: «Non abbiate paura! Voi cercate Gesù Nazareno, il crocifisso. È risorto, non è qui. Ecco il luogo dove l'avevano posto. Ma andate, dite ai suoi discepoli e a Pietro: «Egli vi precede in Galilea. Là lo vedrete, come vi ha detto».",
           "riferimento": "Mc 16,5-7"
         },
         {
           "id": 2,
-          "titolo": "L'ascensione di Gesù al cielo",
+          "title": "L'ascensione di Gesù al cielo",
           "img": "gloriosi_2.png",
-          "brano": "Mentre li benediceva, si staccò da loro e veniva portato su, in cielo. Ed essi si prostrarono davanti a lui; poi tornarono a Gerusalemme con grande gioia e stavano sempre nel tempio lodando Dio.",
+          "text": "Mentre li benediceva, si staccò da loro e veniva portato su, in cielo. Ed essi si prostrarono davanti a lui; poi tornarono a Gerusalemme con grande gioia e stavano sempre nel tempio lodando Dio.",
           "riferimento": "Lc 24, 51-53"
         },
         {
           "id": 3,
-          "titolo": "La discesa dello Spirito Santo su Maria e gli apostoli nel cenacolo",
+          "title": "La discesa dello Spirito Santo su Maria e gli apostoli nel cenacolo",
           "img": "gloriosi_3.png",
-          "brano": "Mentre stava compiendosi il giorno della Pentecoste, si trovavano tutti insieme nello stesso luogo. 2Venne all'improvviso dal cielo un fragore, quasi un vento che si abbatte impetuoso, e riempì tutta la casa dove stavano. 3Apparvero loro lingue come di fuoco, che si dividevano, e si posarono su ciascuno di loro, 4e tutti furono colmati di Spirito Santo e cominciarono a parlare in altre lingue, nel modo in cui lo Spirito dava loro il potere di esprimersi.",
+          "text": "Mentre stava compiendosi il giorno della Pentecoste, si trovavano tutti insieme nello stesso luogo. 2Venne all'improvviso dal cielo un fragore, quasi un vento che si abbatte impetuoso, e riempì tutta la casa dove stavano. 3Apparvero loro lingue come di fuoco, che si dividevano, e si posarono su ciascuno di loro, 4e tutti furono colmati di Spirito Santo e cominciarono a parlare in altre lingue, nel modo in cui lo Spirito dava loro il potere di esprimersi.",
           "riferimento": "At 2,1-4"
         },
         {
           "id": 4,
-          "titolo": "L'assunzione di Maria al cielo",
+          "title": "L'assunzione di Maria al cielo",
           "img": "gloriosi_4.png",
-          "brano": "Un segno grandioso apparve nel cielo: una donna vestita di sole, con la luna sotto i suoi piedi e, sul capo, una corona di dodici stelle.",
+          "text": "Un segno grandioso apparve nel cielo: una donna vestita di sole, con la luna sotto i suoi piedi e, sul capo, una corona di dodici stelle.",
           "riferimento": "Ap 12,1"
         },
         {
           "id": 5,
-          "titolo": "L'incoronazione di Maria nella Gloria degli Angeli e dei Santi",
+          "title": "L'incoronazione di Maria nella Gloria degli Angeli e dei Santi",
           "img": "gloriosi_5.png",
-          "brano": "Quelle cose che occhio non vide, né orecchio udì, né mai entrarono in cuore di uomo, Dio le ha preparate per coloro che lo amano",
+          "text": "Quelle cose che occhio non vide, né orecchio udì, né mai entrarono in cuore di uomo, Dio le ha preparate per coloro che lo amano",
           "riferimento": "1Cor 2,9"
         }
       ]

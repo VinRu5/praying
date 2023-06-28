@@ -1,4 +1,5 @@
 import 'package:equatable/equatable.dart';
+import 'package:praying/misc/constants.dart';
 
 class IntroRosary extends Equatable {
   final String title;
@@ -16,6 +17,15 @@ class IntroRosary extends Equatable {
     required this.godText,
     required this.structure,
   });
+
+  factory IntroRosary.fromJson(Map<String, dynamic> json) => IntroRosary(
+        title: json[K.titleKey],
+        image: json[K.imgKey],
+        introText: json[K.introTextKey],
+        cross: json[K.crossKey],
+        godText: json[K.godTextKey],
+        structure: json[K.structureKey],
+      );
 
   @override
   List<Object?> get props => [

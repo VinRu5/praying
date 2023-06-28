@@ -1,4 +1,5 @@
 import 'package:equatable/equatable.dart';
+import 'package:praying/misc/constants.dart';
 import 'package:praying/models/rosary/final_rosary.dart';
 import 'package:praying/models/rosary/intro_rosary.dart';
 import 'package:praying/models/rosary/litany.dart';
@@ -24,6 +25,17 @@ class Rosary extends Equatable {
     required this.litany,
     required this.finalRosary,
   });
+
+  factory Rosary.fromJson(Map<String, dynamic> json) => Rosary(
+        title: json[K.titleKey],
+        intro: IntroRosary.fromJson(json[K.introKey]),
+        joyfulMysteries: Misteries.fromJson(json[K.joyfulMysteriesKey]),
+        lightMysteries: Misteries.fromJson(json[K.lightMysteriesKey]),
+        sorrowfulMysteries: Misteries.fromJson(json[K.sorrowfulMysteriesKey]),
+        gloriusMysteries: Misteries.fromJson(json[K.gloriusMysteriesKey]),
+        litany: Litany.fromJson(json[K.litanyKey]),
+        finalRosary: FinalRosary.fromJson(json[K.finalKey]),
+      );
 
   @override
   List<Object?> get props => [

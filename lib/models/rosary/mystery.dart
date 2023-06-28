@@ -1,4 +1,5 @@
 import 'package:equatable/equatable.dart';
+import 'package:praying/misc/constants.dart';
 
 class Mystery extends Equatable {
   final int id;
@@ -14,6 +15,14 @@ class Mystery extends Equatable {
     required this.text,
     required this.reference,
   });
+
+  factory Mystery.fromJson(Map<String, dynamic> json) => Mystery(
+        id: json[K.idKey],
+        title: json[K.titleKey],
+        image: json[K.imgKey],
+        text: json[K.textKey],
+        reference: json[K.referenceKey],
+      );
 
   @override
   List<Object?> get props => [
