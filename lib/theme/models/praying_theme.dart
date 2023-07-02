@@ -272,4 +272,11 @@ class PrayingTheme {
     color: AppColors.primaryColor,
   );
   // ---------------------------------------------
+
+  // -- ICON THEME -----------------------------
+  /// Specific color scheme to LightMode
+  static const iconTheme = IconThemeData(
+    color: AppColors.primaryColor,
+  );
+  // ---------------------------------------------
 }

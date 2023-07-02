@@ -11,6 +11,7 @@ class LightTheme {
         fontFamily: 'Nunito',
         textTheme: PrayingTheme.testThemeLight,
         cardTheme: PrayingTheme.cardTheme,
+        iconTheme: PrayingTheme.iconTheme,
       );
 }
 
@@ -23,6 +24,7 @@ class DarkTheme {
         fontFamily: 'Nunito',
         textTheme: PrayingTheme.testThemeDark,
         cardTheme: PrayingTheme.cardTheme,
+        iconTheme: PrayingTheme.iconTheme,
       );
 }
 
