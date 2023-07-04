@@ -260,126 +260,153 @@
     }
   },
   "preghiere": {
-    "credo": {
-      "title": "Credo",
-      "img": "credo.png",
-      "text": "Credo in Dio Padre Onnipotente,\ncreatore del cielo e della terra;\ne in Gesù Cristo, nostro Signore,\nil quale fu concepito di Spirito Santo,\nnacque da Maria Vergine, patì sotto Ponzio Pilato,\nfu crocefisso, morì e fu sepolto.\nDiscese agli inferi, il terzo giorno è resuscitato secondo le Scritture.\nE’ salito al cielo, siede alla destra del Padre\ne di nuovo verrà nella gloria per giudicare i vivi e i morti.\nCredo nello Spirito Santo, la Santa chiesa Cattolica,\nla Comunione dei Santi, la remissione dei peccati,\nla resurrezione della carne, la vita eterna.\nAmen."
-    },
-    "padreNostro": {
-      "title": "Padre Nostro",
-      "img": "padre_nostro.png",
-      "text": "Padre nostro che sei nei cieli,\nsia santificato il tuo nome,\nvenga il tuo regno, sia fatta la tua volontà\ncome in cielo così in terra.\nDacci oggi il nostro pane quotidiano\ne rimetti a noi i nostri debiti\ncome noi li rimettiamo ai nostri debitori,\ne non ci indurre in tentazione ma liberaci dal male.\nAmen"
-    },
-    "aveMaria": {
-      "title": "Ave Maria",
-      "img": "ave_maria.png",
-      "text": "Ave Maria piena di grazia,\nil Signore è con te.\nTu sei benedetta tra le donne\ne benedetto è il frutto del tuo seno Gesù.\nSanta Maria, Madre di Dio,\nprega per noi peccatori,\nadesso e nell'ora della nostra morte.\nAmen"
-    },
-    "gloriaAlPadre": {
-      "title": "Gloria al Padre",
-      "img": "gloria_al_padre.png",
-      "text": "Gloria al Padre e al Figlio\ne allo Spirito Santo.\nCome era nel principio, e ora e sempre\nnei secoli dei secoli. Amen. Alleluia."
-    },
-    "oGesu": {
-      "title": "O Gesù Mio",
-      "img": "gesu_mio.png",
-      "text": "O Gesù mio, perdona le nostre colpe,\npreservaci dal fuoco dell'inferno e porta in cielo tutte le anime,\nspecialmente le più bisognose della tua misericordia"
-    },
-    "salveRegina": {
-      "title": "Salve Regina",
-      "img": "salve_regina.png",
-      "text": "Salve Regina, Madre di Misericordia,\nvita dolcezza e speranza nostra, salve.\nA Te ricorriamo, esuli figli di Eva;\na Te sospiriamo gementi e piangenti\nin questa valle di lacrime.\nOrsù dunque, avvocata nostra,\nrivolgi a noi gli occhi tuoi misericordiosi.\nE mostraci, dopo questo esilio, Gesù,\nil frutto benedetto del tuo seno.\nO clemente, o pia, o dolce Vergine Maria."
-    },
-    "sanGiuseppe": {
-      "title": "Preghiera a San Giuseppe",
-      "img": "san_giuseppe.png",
-      "text": "A te, o beato Giuseppe, stretti dalla tribolazione, ricorriamo,\ne fiduciosi invochiamo il tuo patrocinio,\ndopo quello della tua santissima sposa.\nPer, quel sacro vincolo di carità,\nche ti strinse all'Immacolata Vergine Maria, Madre di Dio,\ne per l'amore paterno che portasti al fanciullo Gesù,\nriguarda, te ne preghiamo, con occhio benigno la cara eredità\nche Gesù Cristo acquistò col suo Sangue,\ne col tuo potere ed aiuto sovvieni ai nostri bisogni.\nProteggi, o provvido custode della divina Famiglia,\nl'eletta prole di Gesù Cristo: allontana da noi, o Padre amatissimo,\ngli errori e i vizi, che ammorbano il mondo;\nassistici propizio dal cielo in questa lotta col potere delle tenebre,\no nostro fortissimo protettore;\ne come un tempo salvasti dalla morte\nla minacciata vita del pargoletto Gesù,\ncosì ora difendi la santa Chiesa di Dio\ndalle ostili insidie e da ogni avversità;\ne stendi ognora sopra ciascuno di noi il tuo patrocinio,\naffinché a tuo esempio e mediante il tuo soccorso,\npossiamo virtuosamente vivere, piamente morire\ne conseguire l'eterna beatitudine in cielo.\nAmen."
-    },
-    "sanMichele": {
-      "title": "Preghiera a San Michele",
-      "img": "san_michele.png",
-      "text": "O Principe gloriosissimo delle milizie celesti,\nSan Michele Arcangelo, difendici nei combattimenti\ne nelle lotte terribili che dobbiamo sostenere in questo mondo,\ncontro il nemico infernale.\nVieni in aiuto agli uomini,\ncombatti ora coll'esercito degli angeli Santi le battaglie del Signore,\ncome già pugnasti contro il capo degli orgogliosi, Lucifero,\ne gli angeli decaduti che lo seguirono.\nTu Principe invincibile,\nsoccorri il popolo di Dio e procurali la vittoria.\nTu che la Santa Chiesa venera come custode e patrono\ne si gloria di avere a suo difensore contro le malvagie dell'inferno.\nTu a cui l'Eterno ha confidato le anime\nper condurle nella celeste beatitudine,\nprega per noi il Dio della pace,\naffinchè il demonio sia umiliato e vinto\ne più non possa tenere gli uomini\nsotto la schiavitù, nè nuocere alla santa Chiesa.\nOffri al trono dell'Altissimo le nostre preghiere\naffinchè le sue misericordie scendano tosto su di noi\ne l'infernale nemico più non possa sedurre\ne perdere il popolo cristiano.\nAmen."
-    },
-    "adorazioneMattino": {
-      "title": "Atto di Adorazione del Mattino",
-      "img": "adorazione_mattina.png",
-      "text": "Ti adoro, mio Dio, e ti amo con tutto il cuore.\nTi ringrazio di avermi creato, fatto cristiano\ne conservato in questa notte.\nTi offro le azioni della giornata:\nfa’ che siano tutte secondo la tua santa volontà\nper la tua maggior gloria.\nPreservami dal peccato e da ogni male.\nLa tua grazia sia sempre con me e con tutti i miei cari.\nAmen"
-    },
-    "adorazioneSera": {
-      "title": "Atto di Adorazione della Sera",
-      "img": "adorazione_sera.png",
-      "text": "Ti adoro, mio Dio e ti amo con tutto il cuore.\nTi ringrazio di avermi creato, fatto cristiano\ne conservato in questo giorno.\nPerdonami il male oggi commesso,\ne se qualche bene ho compiuto accettalo.\nCustodiscimi nel riposo e liberami dai pericoli.\nLa tua grazia sia sempre con me\ne con tutti i miei cari.\nVeglia su questa notte, o Signore,\nmanda i tuoi Angeli a custodirmi nella pace,\ne la tua benedizione rimanga sempre con me.\nAmen."
-    },
-    "attoFede": {
-      "title": "Atto di Fede",
-      "img": "fede.png",
-      "text": "Mio Dio, perché sei verità infallibile,\ncredo fermamente tutto quello che tu hai rivelato\ne la santa Chiesa ci propone a credere.\nEd espressamente credo in te,\nunico vero Dio in tre Persone uguali e distinte,\nPadre, Figlio e Spirito Santo.\nE credo in Gesù Cristo, Figlio di Dio,\nincarnato e morto per noi, il quale darà a ciascuno,\nsecondo i meriti, il premio o la pena eterna.\nConforme a questa fede voglio sempre vivere.\nSignore, accresci la mia fede."
-    },
-    "attoSperanza": {
-      "title": "Atto di Speranza",
-      "img": "speranza.png",
-      "text": "Mio Dio, spero dalla tua bontà,\nper le tue promesse e per i meriti di Gesù Cristo,\nnostro Salvatore, la vita eterna e le grazie necessarie per meritarla\ncon le buone opere, che io debbo e voglio fare.\nSignore, che io possa goderti in eterno."
-    },
-    "attoCarita": {
-      "title": "Atto di Carità",
-      "img": "carita.png",
-      "text": "Mio Dio, ti amo con tutto il cuore sopra ogni cosa,\nperché sei bene infinito e nostra eterna felicità;\ne per amore tuo amo il prossimo come me stesso,\ne perdono le offese ricevute.\nSignore, che io ti ami sempre più."
-    },
-    "offertaGiornata": {
-      "title": "Offerta della Giornata",
-      "img": "offerta.png",
-      "text": "Cuore divino di Gesù, io ti offro,\nper mezzo del Cuore immacolato di Maria,\nMadre della Chiesa, in unione al Sacrificio Eucaristico,\nle preghiere e le azioni, le gioie e le sofferenze di questo giorno,\nin riparazione dei peccati e per la salvezza di tutti gli uomini,\nnella grazia dello Spirito Santo, a gloria del divin Padre."
-    },
-    "angelo": {
-      "title": "Angelo di Dio",
-      "img": "angelo_custode.png",
-      "text": "Angelo di Dio, che sei il mio custode,\nillumina, custodisci, reggi e governa me,\nche ti fui affidato dalla pietà celeste.\nAmen."
-    },
-    "davantiCrocifisso": {
-      "title": "Davanti al Crocifisso",
-      "img": "davanti_al_crocifisso.png",
-      "text": "O alto e glorioso Dio,\nillumina le tenebre\ndel cuore mio.\nDammi una fede retta,\nsperanza certa,\ncarità perfetta\ne umiltà profonda.\nDammi, Signore,\nsenno e discernimento\nper compiere la tua vera\ne santa volontà.\nAmen."
-    },
-    "semplice": {
-      "title": "Preghiera Semplice",
-      "img": "semplice.png",
-      "text": "Signore, fa di me\nuno strumento della Tua Pace:\nDove è odio, fa ch'io porti l'Amore,\nDove è offesa, ch'io porti il Perdono,\nDove è discordia, ch'io porti l'Unione,\nDove è dubbio, ch'io porti la Fede,\nDove è errore, ch'io porti la Verità,\nDove è disperazione, ch'io porti la Speranza,\nDove è tristezza, ch'io porti la Gioia,\nDove sono le tenebre, ch'io porti la Luce.\nMaestro, fa che io non cerchi tanto\nAd esser consolato, quanto a consolare;\nAd essere compreso, quanto a comprendere;\nAd essere amato, quanto ad amare.\nPoiché, così è:\nDando, che si riceve;\nPerdonando, che si è perdonati;\nMorendo, che si risuscita a Vita Eterna."
-    },
-    "altissimo": {
-      "title": "Lodi di Dio Altissimo",
-      "img": "altissimo.png",
-      "text": "Tu sei santo, Signore Dio unico,\nche compi meraviglie.\nTu sei forte. Tu sei grande. Tu sei altissimo.\nTu sei Re onnipotente, tu Padre santo,\nRe del cielo e della terra.\nTu sei Trino e Uno, Signore Dio degli dei,\nTu sei bene, ogni bene, sommo bene,\nSignore Dio, vivo e vero.\nTu sei amore, carità. Tu sei sapienza.\nTu sei umiltà. Tu sei pazienza.\nTu sei bellezza. Tu sei mansuetudine\nTu sei sicurezza. Tu sei quiete.\nTu sei gaudio e letizia. Tu sei speranza nostra.\nTu sei giustizia. Tu sei temperanza.\nTu sei ogni nostra sufficiente ricchezza.\nTu sei bellezza. Tu sei mansuetudine.\nTu sei protettore. Tu sei custode e difensore nostro.\nTu sei fortezza. Tu sei refrigerio.\nTu sei speranza nostra. Tu sei fede nostra .\nTu sei carità nostra. Tu sei completa dolcezza nostra.\nTu sei nostra vita eterna,\ngrande e ammirabile Signore,\nDio onnipotente, misericordioso Salvatore."
-    },
-    "absorbeat": {
-      "title": "Preghiera \"Absorbeat\"",
-      "img": "rapisca.png",
-      "text": "Rapisca, ti prego, o Signore,\nl'ardente e dolce forza del tuo amore la mente mia\nda tutte le cose che sono sotto il cielo,\nperché io muoia per amore dell'amor tuo,\ncome tu ti sei degnato morire per amore dell'amor mio."
-    },
-    "creature": {
-      "title": "Il Cantico delle Creature",
-      "img": "creature.png",
-      "text": "Altissimo, onnipotente, bon Signore,\ntue so' le laude, la gloria e l'honore et onne benedictione.\nAd te solo, Altissimo, se konfanno,\net nullo homo ene digno te mentovare.\nLaudato sì, mi' Signore, cum tucte le tue creature,\nspetialmente messer lo frate sole,\nlo qual è iorno, et allumini noi per lui.\nEt ellu è bellu e radiante cum grande splendore:\nde te, Altissimo, porta significatione.\nLaudato si', mi' Signore, per sora luna e le stelle:\nin celu l'hai formate clarite et pretiose et belle.\nLaudato si', mi' Signore, per frate vento\net per aere et nubilo et sereno et onne tempo,\nper lo quale alle tue creature dai sustentamento.\nLaudato si', mi' Signore, per sora acqua,\nla quale è molto utile et humile et pretiosa et casta.\nLaudato si', mi' Signore, per frate focu,\nper lo quale ennallumini la nocte;\net ello è bello et iocundo et robustoso et forte.\nLaudato si', mi' Signore, per sora nostra matre terra,\nla quale ne sustenta et governa,\net produce diversi fructi con coloriti fiori et herba.\nLaudato si', mi' Signore, per quelli ke perdonano per lo tuo amore,\net sostengon infirmitate et tribulatione.\nBeati quelli ke le sosterrano in pace\nka da te, Altissimo, saranno incoronati.\nLaudato si', mi' Signore, per sora nostra morte corporale,\nda la quale nullo homo vivente pò skappare.\nGuai a quelli ke morrano ne le peccata mortali;\nbeati quelli ke trovarà ne le tue sanctissime voluntati,\nka la morte secunda nol farà male.\nLaudate et benedicete mi' Signore et rengratiate\ne servitelo cum grande humilitate."
-    },
-    "reginaCielo": {
-      "title": "Regina del Cielo",
-      "img": "regina_del_cielo.png",
-      "text": "(nel tempo pasquale)\nRegina del cielo, rallegrati (alleluia);\nperché colui che meritasti di portare (alleluia)\nè risorto come aveva predetto (alleluia).\nPrega per noi il Signore (alleluia).\n-V. Gioisci e rallegrati, Vergine Maria, alleluia!\n-R Perché il Signore è veramente risorto, alleluia!\n\nPreghiamo.\nO Dio che ti sei degnato di allietare il mondo per mezzo della risurrezione del tuo Figlio e nostro Signore Gesù Cristo, concedi che per intercessione della Madre sua, la Vergine Maria, noi possiamo ottenere i gaudi della vita eterna. Per Cristo nostro Signore. Amen."
-    },
-    "comunione": {
-      "title": "Comunione Spirituale",
-      "img": "comunione_spirituale.png",
-      "text": "Gesù mio,\nio credo che sei realmente presente\nnel Santissimo Sacramento.\nTi amo sopra ogni cosa\ne ti desidero nell' anima mia.\nPoiché ora non posso riceverti sacramentalmente,\nvieni almeno spiritualmente\nnel mio cuore.\nCome già venuto,\nio ti abbraccio e tutto mi unisco a te;\nnon permettere che mi abbia mai\na separare da te.\n\nEterno Padre, io ti offro\nil Sangue Preziosissimo di Gesù Cristo\nin sconto dei miei peccati,\nin suffragio delle anime del purgatorio\ne per i bisogni della Santa Chiesa."
-    },
-    "spirito_santo_caterina": {
-      "title": "Preghiera allo Spirito Santo di Santa Caterina da Siena",
-      "img": "spirito_santo.png",
-      "text": "Spirito Santo\ndiscendi nel mio cuore,\nper la tua potenza attrailo a Te\nconcedimi carità con timore.\nRiscaldami ed infiammami del tuo dolcissimo amore,\ncosì che ogni pena mi sembri leggera.\nSanto mio Padre\ndolce mio Signore\nora aiutami in questa mia azione\nCristo amore,\nCristo amore,\nCristo amore.\nAmen."
-    },
-    "spirito_santo": {
-      "title": "Vieni Santo Spirito",
-      "img": "spirito_2.png",
-      "text": "Vieni, Santo Spirito,\nmanda a noi dal cielo\nun raggio della tua luce.\n\nVieni, padre dei poveri,\nvieni; datore dei doni,\nvieni, luce dei cuori.\n\nConsolatore perfetto,\nospite dolce dell'anima,\ndolcissimo sollievo.\n\nNella fatica, riposo,\nnella calura, riparo,\nnel pianto, conforto.\n\nO luce beatissima,\ninvadi nell'intimo\nil cuore dei tuoi fedeli.\n\nSenza la tua forza,\nnulla è nell'uomo,\nnulla senza colpa.\n\nLava ciò che è sordido,\nbagna ciò che è arido,\nsana ciò che sanguina.\n\nPiega ciò che è rigido,\nscalda ciò che è gelido,\nraddrizza ciò ch'è sviato.\n\nDona ai tuoi fedeli\nche solo in te confidano\ni tuoi santi doni.\n\nDona virtù e premio,\ndona morte santa,\ndona gioia eterna. Amen."
-    }
+    "title": "Preghiere",
+    "preghiere": [
+      {
+        "id": 1,
+        "title": "Credo",
+        "img": "credo.png",
+        "text": "Credo in Dio Padre Onnipotente,\ncreatore del cielo e della terra;\ne in Gesù Cristo, nostro Signore,\nil quale fu concepito di Spirito Santo,\nnacque da Maria Vergine, patì sotto Ponzio Pilato,\nfu crocefisso, morì e fu sepolto.\nDiscese agli inferi, il terzo giorno è resuscitato secondo le Scritture.\nE’ salito al cielo, siede alla destra del Padre\ne di nuovo verrà nella gloria per giudicare i vivi e i morti.\nCredo nello Spirito Santo, la Santa chiesa Cattolica,\nla Comunione dei Santi, la remissione dei peccati,\nla resurrezione della carne, la vita eterna.\nAmen."
+      },
+      {
+        "id": 2,
+        "title": "Padre Nostro",
+        "img": "padre_nostro.png",
+        "text": "Padre nostro che sei nei cieli,\nsia santificato il tuo nome,\nvenga il tuo regno, sia fatta la tua volontà\ncome in cielo così in terra.\nDacci oggi il nostro pane quotidiano\ne rimetti a noi i nostri debiti\ncome noi li rimettiamo ai nostri debitori,\ne non ci indurre in tentazione ma liberaci dal male.\nAmen"
+      },
+      {
+        "id": 3,
+        "title": "Ave Maria",
+        "img": "ave_maria.png",
+        "text": "Ave Maria piena di grazia,\nil Signore è con te.\nTu sei benedetta tra le donne\ne benedetto è il frutto del tuo seno Gesù.\nSanta Maria, Madre di Dio,\nprega per noi peccatori,\nadesso e nell'ora della nostra morte.\nAmen"
+      },
+      {
+        "id": 4,
+        "title": "Gloria al Padre",
+        "img": "gloria_al_padre.png",
+        "text": "Gloria al Padre e al Figlio\ne allo Spirito Santo.\nCome era nel principio, e ora e sempre\nnei secoli dei secoli. Amen. Alleluia."
+      },
+      {
+        "id": 5,
+        "title": "O Gesù Mio",
+        "img": "gesu_mio.png",
+        "text": "O Gesù mio, perdona le nostre colpe,\npreservaci dal fuoco dell'inferno e porta in cielo tutte le anime,\nspecialmente le più bisognose della tua misericordia"
+      },
+      {
+        "id": 6,
+        "title": "Salve Regina",
+        "img": "salve_regina.png",
+        "text": "Salve Regina, Madre di Misericordia,\nvita dolcezza e speranza nostra, salve.\nA Te ricorriamo, esuli figli di Eva;\na Te sospiriamo gementi e piangenti\nin questa valle di lacrime.\nOrsù dunque, avvocata nostra,\nrivolgi a noi gli occhi tuoi misericordiosi.\nE mostraci, dopo questo esilio, Gesù,\nil frutto benedetto del tuo seno.\nO clemente, o pia, o dolce Vergine Maria."
+      },
+      {
+        "id": 7,
+        "title": "Preghiera a San Giuseppe",
+        "img": "san_giuseppe.png",
+        "text": "A te, o beato Giuseppe, stretti dalla tribolazione, ricorriamo,\ne fiduciosi invochiamo il tuo patrocinio,\ndopo quello della tua santissima sposa.\nPer, quel sacro vincolo di carità,\nche ti strinse all'Immacolata Vergine Maria, Madre di Dio,\ne per l'amore paterno che portasti al fanciullo Gesù,\nriguarda, te ne preghiamo, con occhio benigno la cara eredità\nche Gesù Cristo acquistò col suo Sangue,\ne col tuo potere ed aiuto sovvieni ai nostri bisogni.\nProteggi, o provvido custode della divina Famiglia,\nl'eletta prole di Gesù Cristo: allontana da noi, o Padre amatissimo,\ngli errori e i vizi, che ammorbano il mondo;\nassistici propizio dal cielo in questa lotta col potere delle tenebre,\no nostro fortissimo protettore;\ne come un tempo salvasti dalla morte\nla minacciata vita del pargoletto Gesù,\ncosì ora difendi la santa Chiesa di Dio\ndalle ostili insidie e da ogni avversità;\ne stendi ognora sopra ciascuno di noi il tuo patrocinio,\naffinché a tuo esempio e mediante il tuo soccorso,\npossiamo virtuosamente vivere, piamente morire\ne conseguire l'eterna beatitudine in cielo.\nAmen."
+      },
+      {
+        "id": 8,
+        "title": "Preghiera a San Michele",
+        "img": "san_michele.png",
+        "text": "O Principe gloriosissimo delle milizie celesti,\nSan Michele Arcangelo, difendici nei combattimenti\ne nelle lotte terribili che dobbiamo sostenere in questo mondo,\ncontro il nemico infernale.\nVieni in aiuto agli uomini,\ncombatti ora coll'esercito degli angeli Santi le battaglie del Signore,\ncome già pugnasti contro il capo degli orgogliosi, Lucifero,\ne gli angeli decaduti che lo seguirono.\nTu Principe invincibile,\nsoccorri il popolo di Dio e procurali la vittoria.\nTu che la Santa Chiesa venera come custode e patrono\ne si gloria di avere a suo difensore contro le malvagie dell'inferno.\nTu a cui l'Eterno ha confidato le anime\nper condurle nella celeste beatitudine,\nprega per noi il Dio della pace,\naffinchè il demonio sia umiliato e vinto\ne più non possa tenere gli uomini\nsotto la schiavitù, nè nuocere alla santa Chiesa.\nOffri al trono dell'Altissimo le nostre preghiere\naffinchè le sue misericordie scendano tosto su di noi\ne l'infernale nemico più non possa sedurre\ne perdere il popolo cristiano.\nAmen."
+      },
+      {
+        "id": 9,
+        "title": "Atto di Adorazione del Mattino",
+        "img": "adorazione_mattina.png",
+        "text": "Ti adoro, mio Dio, e ti amo con tutto il cuore.\nTi ringrazio di avermi creato, fatto cristiano\ne conservato in questa notte.\nTi offro le azioni della giornata:\nfa’ che siano tutte secondo la tua santa volontà\nper la tua maggior gloria.\nPreservami dal peccato e da ogni male.\nLa tua grazia sia sempre con me e con tutti i miei cari.\nAmen"
+      },
+      {
+        "id": 10,
+        "title": "Atto di Adorazione della Sera",
+        "img": "adorazione_sera.png",
+        "text": "Ti adoro, mio Dio e ti amo con tutto il cuore.\nTi ringrazio di avermi creato, fatto cristiano\ne conservato in questo giorno.\nPerdonami il male oggi commesso,\ne se qualche bene ho compiuto accettalo.\nCustodiscimi nel riposo e liberami dai pericoli.\nLa tua grazia sia sempre con me\ne con tutti i miei cari.\nVeglia su questa notte, o Signore,\nmanda i tuoi Angeli a custodirmi nella pace,\ne la tua benedizione rimanga sempre con me.\nAmen."
+      },
+      {
+        "id": 11,
+        "title": "Atto di Fede",
+        "img": "fede.png",
+        "text": "Mio Dio, perché sei verità infallibile,\ncredo fermamente tutto quello che tu hai rivelato\ne la santa Chiesa ci propone a credere.\nEd espressamente credo in te,\nunico vero Dio in tre Persone uguali e distinte,\nPadre, Figlio e Spirito Santo.\nE credo in Gesù Cristo, Figlio di Dio,\nincarnato e morto per noi, il quale darà a ciascuno,\nsecondo i meriti, il premio o la pena eterna.\nConforme a questa fede voglio sempre vivere.\nSignore, accresci la mia fede."
+      },
+      {
+        "id": 12,
+        "title": "Atto di Speranza",
+        "img": "speranza.png",
+        "text": "Mio Dio, spero dalla tua bontà,\nper le tue promesse e per i meriti di Gesù Cristo,\nnostro Salvatore, la vita eterna e le grazie necessarie per meritarla\ncon le buone opere, che io debbo e voglio fare.\nSignore, che io possa goderti in eterno."
+      },
+      {
+        "id": 13,
+        "title": "Atto di Carità",
+        "img": "carita.png",
+        "text": "Mio Dio, ti amo con tutto il cuore sopra ogni cosa,\nperché sei bene infinito e nostra eterna felicità;\ne per amore tuo amo il prossimo come me stesso,\ne perdono le offese ricevute.\nSignore, che io ti ami sempre più."
+      },
+      {
+        "id": 14,
+        "title": "Offerta della Giornata",
+        "img": "offerta.png",
+        "text": "Cuore divino di Gesù, io ti offro,\nper mezzo del Cuore immacolato di Maria,\nMadre della Chiesa, in unione al Sacrificio Eucaristico,\nle preghiere e le azioni, le gioie e le sofferenze di questo giorno,\nin riparazione dei peccati e per la salvezza di tutti gli uomini,\nnella grazia dello Spirito Santo, a gloria del divin Padre."
+      },
+      {
+        "id": 15,
+        "title": "Angelo di Dio",
+        "img": "angelo_custode.png",
+        "text": "Angelo di Dio, che sei il mio custode,\nillumina, custodisci, reggi e governa me,\nche ti fui affidato dalla pietà celeste.\nAmen."
+      },
+      {
+        "id": 16,
+        "title": "Davanti al Crocifisso",
+        "img": "davanti_al_crocifisso.png",
+        "text": "O alto e glorioso Dio,\nillumina le tenebre\ndel cuore mio.\nDammi una fede retta,\nsperanza certa,\ncarità perfetta\ne umiltà profonda.\nDammi, Signore,\nsenno e discernimento\nper compiere la tua vera\ne santa volontà.\nAmen."
+      },
+      {
+        "id": 17,
+        "title": "Preghiera Semplice",
+        "img": "semplice.png",
+        "text": "Signore, fa di me\nuno strumento della Tua Pace:\nDove è odio, fa ch'io porti l'Amore,\nDove è offesa, ch'io porti il Perdono,\nDove è discordia, ch'io porti l'Unione,\nDove è dubbio, ch'io porti la Fede,\nDove è errore, ch'io porti la Verità,\nDove è disperazione, ch'io porti la Speranza,\nDove è tristezza, ch'io porti la Gioia,\nDove sono le tenebre, ch'io porti la Luce.\nMaestro, fa che io non cerchi tanto\nAd esser consolato, quanto a consolare;\nAd essere compreso, quanto a comprendere;\nAd essere amato, quanto ad amare.\nPoiché, così è:\nDando, che si riceve;\nPerdonando, che si è perdonati;\nMorendo, che si risuscita a Vita Eterna."
+      },
+      {
+        "id": 18,
+        "title": "Lodi di Dio Altissimo",
+        "img": "altissimo.png",
+        "text": "Tu sei santo, Signore Dio unico,\nche compi meraviglie.\nTu sei forte. Tu sei grande. Tu sei altissimo.\nTu sei Re onnipotente, tu Padre santo,\nRe del cielo e della terra.\nTu sei Trino e Uno, Signore Dio degli dei,\nTu sei bene, ogni bene, sommo bene,\nSignore Dio, vivo e vero.\nTu sei amore, carità. Tu sei sapienza.\nTu sei umiltà. Tu sei pazienza.\nTu sei bellezza. Tu sei mansuetudine\nTu sei sicurezza. Tu sei quiete.\nTu sei gaudio e letizia. Tu sei speranza nostra.\nTu sei giustizia. Tu sei temperanza.\nTu sei ogni nostra sufficiente ricchezza.\nTu sei bellezza. Tu sei mansuetudine.\nTu sei protettore. Tu sei custode e difensore nostro.\nTu sei fortezza. Tu sei refrigerio.\nTu sei speranza nostra. Tu sei fede nostra .\nTu sei carità nostra. Tu sei completa dolcezza nostra.\nTu sei nostra vita eterna,\ngrande e ammirabile Signore,\nDio onnipotente, misericordioso Salvatore."
+      },
+      {
+        "id": 19,
+        "title": "Preghiera \"Absorbeat\"",
+        "img": "rapisca.png",
+        "text": "Rapisca, ti prego, o Signore,\nl'ardente e dolce forza del tuo amore la mente mia\nda tutte le cose che sono sotto il cielo,\nperché io muoia per amore dell'amor tuo,\ncome tu ti sei degnato morire per amore dell'amor mio."
+      },
+      {
+        "id": 20,
+        "title": "Il Cantico delle Creature",
+        "img": "creature.png",
+        "text": "Altissimo, onnipotente, bon Signore,\ntue so' le laude, la gloria e l'honore et onne benedictione.\nAd te solo, Altissimo, se konfanno,\net nullo homo ene digno te mentovare.\nLaudato sì, mi' Signore, cum tucte le tue creature,\nspetialmente messer lo frate sole,\nlo qual è iorno, et allumini noi per lui.\nEt ellu è bellu e radiante cum grande splendore:\nde te, Altissimo, porta significatione.\nLaudato si', mi' Signore, per sora luna e le stelle:\nin celu l'hai formate clarite et pretiose et belle.\nLaudato si', mi' Signore, per frate vento\net per aere et nubilo et sereno et onne tempo,\nper lo quale alle tue creature dai sustentamento.\nLaudato si', mi' Signore, per sora acqua,\nla quale è molto utile et humile et pretiosa et casta.\nLaudato si', mi' Signore, per frate focu,\nper lo quale ennallumini la nocte;\net ello è bello et iocundo et robustoso et forte.\nLaudato si', mi' Signore, per sora nostra matre terra,\nla quale ne sustenta et governa,\net produce diversi fructi con coloriti fiori et herba.\nLaudato si', mi' Signore, per quelli ke perdonano per lo tuo amore,\net sostengon infirmitate et tribulatione.\nBeati quelli ke le sosterrano in pace\nka da te, Altissimo, saranno incoronati.\nLaudato si', mi' Signore, per sora nostra morte corporale,\nda la quale nullo homo vivente pò skappare.\nGuai a quelli ke morrano ne le peccata mortali;\nbeati quelli ke trovarà ne le tue sanctissime voluntati,\nka la morte secunda nol farà male.\nLaudate et benedicete mi' Signore et rengratiate\ne servitelo cum grande humilitate."
+      },
+      {
+        "id": 21,
+        "title": "Regina del Cielo",
+        "img": "regina_del_cielo.png",
+        "text": "(nel tempo pasquale)\nRegina del cielo, rallegrati (alleluia);\nperché colui che meritasti di portare (alleluia)\nè risorto come aveva predetto (alleluia).\nPrega per noi il Signore (alleluia).\n-V. Gioisci e rallegrati, Vergine Maria, alleluia!\n-R Perché il Signore è veramente risorto, alleluia!\n\nPreghiamo.\nO Dio che ti sei degnato di allietare il mondo per mezzo della risurrezione del tuo Figlio e nostro Signore Gesù Cristo, concedi che per intercessione della Madre sua, la Vergine Maria, noi possiamo ottenere i gaudi della vita eterna. Per Cristo nostro Signore. Amen."
+      },
+      {
+        "id": 22,
+        "title": "Comunione Spirituale",
+        "img": "comunione_spirituale.png",
+        "text": "Gesù mio,\nio credo che sei realmente presente\nnel Santissimo Sacramento.\nTi amo sopra ogni cosa\ne ti desidero nell' anima mia.\nPoiché ora non posso riceverti sacramentalmente,\nvieni almeno spiritualmente\nnel mio cuore.\nCome già venuto,\nio ti abbraccio e tutto mi unisco a te;\nnon permettere che mi abbia mai\na separare da te.\n\nEterno Padre, io ti offro\nil Sangue Preziosissimo di Gesù Cristo\nin sconto dei miei peccati,\nin suffragio delle anime del purgatorio\ne per i bisogni della Santa Chiesa."
+      },
+      {
+        "id": 23,
+        "title": "Preghiera allo Spirito Santo di Santa Caterina da Siena",
+        "img": "spirito_santo.png",
+        "text": "Spirito Santo\ndiscendi nel mio cuore,\nper la tua potenza attrailo a Te\nconcedimi carità con timore.\nRiscaldami ed infiammami del tuo dolcissimo amore,\ncosì che ogni pena mi sembri leggera.\nSanto mio Padre\ndolce mio Signore\nora aiutami in questa mia azione\nCristo amore,\nCristo amore,\nCristo amore.\nAmen."
+      },
+      {
+        "id": 24,
+        "title": "Vieni Santo Spirito",
+        "img": "spirito_2.png",
+        "text": "Vieni, Santo Spirito,\nmanda a noi dal cielo\nun raggio della tua luce.\n\nVieni, padre dei poveri,\nvieni; datore dei doni,\nvieni, luce dei cuori.\n\nConsolatore perfetto,\nospite dolce dell'anima,\ndolcissimo sollievo.\n\nNella fatica, riposo,\nnella calura, riparo,\nnel pianto, conforto.\n\nO luce beatissima,\ninvadi nell'intimo\nil cuore dei tuoi fedeli.\n\nSenza la tua forza,\nnulla è nell'uomo,\nnulla senza colpa.\n\nLava ciò che è sordido,\nbagna ciò che è arido,\nsana ciò che sanguina.\n\nPiega ciò che è rigido,\nscalda ciò che è gelido,\nraddrizza ciò ch'è sviato.\n\nDona ai tuoi fedeli\nche solo in te confidano\ni tuoi santi doni.\n\nDona virtù e premio,\ndona morte santa,\ndona gioia eterna. Amen."
+      }
+    ]
   },
   "misericordina": {
     "title": "Misericordina",

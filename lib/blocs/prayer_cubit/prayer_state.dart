@@ -13,11 +13,9 @@ class PrayerLoading extends PrayerState {
 
 class PrayerLoaded extends PrayerState {
   final Prayers prayers;
-  final Misericordina misericordina;
 
   const PrayerLoaded(
     this.prayers,
-    this.misericordina,
   );
 }
 

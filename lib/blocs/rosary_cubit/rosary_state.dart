@@ -13,9 +13,11 @@ class RosaryLoading extends RosaryState {
 
 class RosaryLoaded extends RosaryState {
   final Rosary rosary;
+  final Misericordina misericordina;
 
   const RosaryLoaded(
     this.rosary,
+    this.misericordina,
   );
 }
 
