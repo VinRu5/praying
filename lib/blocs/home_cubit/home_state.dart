@@ -16,3 +16,7 @@ class HomeLoaded extends HomeState {
 
   const HomeLoaded(this.data);
 }
+
+class HomeError extends HomeState {
+  const HomeError();
+}

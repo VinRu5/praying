@@ -16,7 +16,7 @@ class HomeCubit extends Cubit<HomeState> {
 
       emit(HomeLoaded(data));
     } catch (e) {
-      print(e);
+      emit(const HomeError());
     }
   }
 }

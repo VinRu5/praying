@@ -10,6 +10,7 @@ class AppModel extends Equatable {
   final Misericordina misericordina;
   final Prayers prayers;
   final Rosary rosary;
+  final String description;
 
   const AppModel({
     required this.title,
@@ -17,11 +18,13 @@ class AppModel extends Equatable {
     required this.misericordina,
     required this.prayers,
     required this.rosary,
+    required this.description,
   });
 
   factory AppModel.fromJson(Map<String, dynamic> json) => AppModel(
         title: json[K.titleKey],
         coverImage: json[K.imgKey],
+        description: json[K.descriptionKey],
         misericordina: Misericordina.fromJson(json[K.misericordinaKey]),
         prayers: Prayers.fromJson(json[K.prayersKey]),
         rosary: Rosary.fromJson(json[K.rosaryKey]),
@@ -34,5 +37,6 @@ class AppModel extends Equatable {
         misericordina,
         prayers,
         rosary,
+        description,
       ];
 }

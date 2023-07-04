@@ -12,14 +12,14 @@ class PrayingTheme {
 
   // -- TEXT STYLES -----------------------------
   static const TextStyle _displayLargeLight = TextStyle(
-    color: AppColors.textLight,
+    color: AppColors.primaryColor,
     fontFamily: 'Ranchers',
     fontSize: 80.0,
     letterSpacing: 3,
   );
 
   static const TextStyle _displayLargeDark = TextStyle(
-    color: AppColors.textDark,
+    color: AppColors.primaryColor,
     fontFamily: 'Ranchers',
     fontSize: 80.0,
     letterSpacing: 3,

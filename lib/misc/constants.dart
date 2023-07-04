@@ -55,4 +55,5 @@ class K {
   static const sorrowfulMysteriesKey = 'misteriDolorosi';
   static const gloriusMysteriesKey = 'misteriGloriosi';
   static const finalKey = 'finale';
+  static const descriptionKey = "description";
 }
