@@ -15,16 +15,16 @@ abstract class _$AppRouter extends RootStackRouter {
 
   @override
   final Map<String, PageFactory> pagesMap = {
+    PrayersRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: WrappedRoute(child: const PrayersPage()),
+      );
+    },
     HomeRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
         child: const HomePage(),
-      );
-    },
-    PrayersRoute.name: (routeData) {
-      return AutoRoutePage<dynamic>(
-        routeData: routeData,
-        child: const PrayersPage(),
       );
     },
     MisericordinaRoute.name: (routeData) {
@@ -42,24 +42,26 @@ abstract class _$AppRouter extends RootStackRouter {
     RosaryRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: const RosaryPage(),
+        child: WrappedRoute(child: const RosaryPage()),
+      );
+    },
+    PrayerRoute.name: (routeData) {
+      final args = routeData.argsAs<PrayerRouteArgs>();
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: PrayerPage(
+          prayer: args.prayer,
+          key: args.key,
+        ),
+      );
+    },
+    EmptyRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const EmptyPage(),
       );
     },
   };
-}
-
-/// generated route for
-/// [HomePage]
-class HomeRoute extends PageRouteInfo<void> {
-  const HomeRoute({List<PageRouteInfo>? children})
-      : super(
-          HomeRoute.name,
-          initialChildren: children,
-        );
-
-  static const String name = 'HomeRoute';
-
-  static const PageInfo<void> page = PageInfo<void>(name);
 }
 
 /// generated route for
@@ -72,6 +74,20 @@ class PrayersRoute extends PageRouteInfo<void> {
         );
 
   static const String name = 'PrayersRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [HomePage]
+class HomeRoute extends PageRouteInfo<void> {
+  const HomeRoute({List<PageRouteInfo>? children})
+      : super(
+          HomeRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'HomeRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
@@ -114,6 +130,57 @@ class RosaryRoute extends PageRouteInfo<void> {
         );
 
   static const String name = 'RosaryRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [PrayerPage]
+class PrayerRoute extends PageRouteInfo<PrayerRouteArgs> {
+  PrayerRoute({
+    required Prayer prayer,
+    Key? key,
+    List<PageRouteInfo>? children,
+  }) : super(
+          PrayerRoute.name,
+          args: PrayerRouteArgs(
+            prayer: prayer,
+            key: key,
+          ),
+          initialChildren: children,
+        );
+
+  static const String name = 'PrayerRoute';
+
+  static const PageInfo<PrayerRouteArgs> page = PageInfo<PrayerRouteArgs>(name);
+}
+
+class PrayerRouteArgs {
+  const PrayerRouteArgs({
+    required this.prayer,
+    this.key,
+  });
+
+  final Prayer prayer;
+
+  final Key? key;
+
+  @override
+  String toString() {
+    return 'PrayerRouteArgs{prayer: $prayer, key: $key}';
+  }
+}
+
+/// generated route for
+/// [EmptyPage]
+class EmptyRoute extends PageRouteInfo<void> {
+  const EmptyRoute({List<PageRouteInfo>? children})
+      : super(
+          EmptyRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'EmptyRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
