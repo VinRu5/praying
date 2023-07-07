@@ -6,7 +6,5 @@ class RosarySectionPage extends StatelessWidget {
   const RosarySectionPage({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
+  Widget build(BuildContext context) => const AutoRouter();
 }

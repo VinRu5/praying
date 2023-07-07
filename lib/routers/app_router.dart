@@ -1,6 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:praying/models/prayer.dart';
+import 'package:praying/models/rosary/mysteries.dart';
 import 'package:praying/pages/dashboard_page/dashboard_page.dart';
 import 'package:praying/pages/home_page/home_page.dart';
 import 'package:praying/pages/rosary_page/misericordina_page.dart';
@@ -8,10 +9,10 @@ import 'package:praying/pages/prayer_page/prayer_page.dart';
 import 'package:praying/pages/prayers_page/prayers_page.dart';
 import 'package:praying/pages/rosary_page/rosary_main_page.dart';
 import 'package:praying/pages/rosary_page/rosary_page.dart';
-import 'package:praying/pages/settings_page/settinga_page.dart';
+import 'package:praying/pages/settings_page/settings_page.dart';
 import 'package:praying/widgets/empty_page.dart';
-import 'package:praying/widgets/prayer_section.dart';
-import 'package:praying/widgets/rosary_section.dart';
+import 'package:praying/pages/prayers_page/prayer_section.dart';
+import 'package:praying/pages/rosary_page/rosary_section.dart';
 
 part 'app_router.gr.dart';
 

@@ -99,12 +99,19 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
     fontSize: 18.0,
   );
 
+  static const TextStyle _primaryButtonText = TextStyle(
+    fontSize: 24.0,
+    color: AppColors.textDark,
+    fontWeight: FontWeight.w600,
+  );
+
   final TextStyle titleLarge;
   final TextStyle bodyHome;
   final TextStyle appBarTitle;
   final TextStyle tileTitle;
   final TextStyle prayerTitle;
   final TextStyle prayerBody;
+  final TextStyle primaryButtonText;
 
   PrayingThemeExtension({
     this.titleLarge = _titleLarge,
@@ -113,6 +120,7 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
     this.tileTitle = _tileTitle,
     this.prayerTitle = _prayerTitle,
     this.prayerBody = _prayerBody,
+    this.primaryButtonText = _primaryButtonText,
   });
 
   @override
@@ -123,6 +131,7 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
     TextStyle? tileTitle,
     TextStyle? prayerTitle,
     TextStyle? prayerBody,
+    TextStyle? primaryButtonText,
   }) =>
       PrayingThemeExtension(
         titleLarge: titleLarge ?? this.titleLarge,
@@ -131,6 +140,7 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
         tileTitle: tileTitle ?? this.tileTitle,
         prayerTitle: prayerTitle ?? this.prayerTitle,
         prayerBody: prayerBody ?? this.prayerBody,
+        primaryButtonText: primaryButtonText ?? this.primaryButtonText,
       );
 
   @override
@@ -146,6 +156,7 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
       tileTitle: TextStyle.lerp(tileTitle, other.tileTitle, t)!,
       prayerTitle: TextStyle.lerp(prayerTitle, other.prayerTitle, t)!,
       prayerBody: TextStyle.lerp(prayerBody, other.prayerBody, t)!,
+      primaryButtonText: TextStyle.lerp(primaryButtonText, other.primaryButtonText, t)!,
     );
   }
 }

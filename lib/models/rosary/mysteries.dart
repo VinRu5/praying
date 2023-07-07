@@ -30,3 +30,10 @@ class Misteries extends Equatable {
         misteries,
       ];
 }
+
+enum MisteriesType {
+  joyfulMysteries,
+  lightMysteries,
+  sorrowfulMysteries,
+  gloriusMysteries,
+}

@@ -34,9 +34,14 @@ abstract class _$AppRouter extends RootStackRouter {
       );
     },
     RosaryRoute.name: (routeData) {
+      final args = routeData.argsAs<RosaryRouteArgs>();
       return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: WrappedRoute(child: const RosaryPage()),
+        child: WrappedRoute(
+            child: RosaryPage(
+          type: args.type,
+          key: args.key,
+        )),
       );
     },
     PrayerRoute.name: (routeData) {
@@ -73,16 +78,16 @@ abstract class _$AppRouter extends RootStackRouter {
         child: const SettingsPage(),
       );
     },
-    PrayerSectionRoute.name: (routeData) {
-      return AutoRoutePage<dynamic>(
-        routeData: routeData,
-        child: const PrayerSectionPage(),
-      );
-    },
     RosarySectionRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
         child: const RosarySectionPage(),
+      );
+    },
+    PrayerSectionRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const PrayerSectionPage(),
       );
     },
   };
@@ -132,16 +137,39 @@ class DashboardRoute extends PageRouteInfo<void> {
 
 /// generated route for
 /// [RosaryPage]
-class RosaryRoute extends PageRouteInfo<void> {
-  const RosaryRoute({List<PageRouteInfo>? children})
-      : super(
+class RosaryRoute extends PageRouteInfo<RosaryRouteArgs> {
+  RosaryRoute({
+    required MisteriesType type,
+    Key? key,
+    List<PageRouteInfo>? children,
+  }) : super(
           RosaryRoute.name,
+          args: RosaryRouteArgs(
+            type: type,
+            key: key,
+          ),
           initialChildren: children,
         );
 
   static const String name = 'RosaryRoute';
 
-  static const PageInfo<void> page = PageInfo<void>(name);
+  static const PageInfo<RosaryRouteArgs> page = PageInfo<RosaryRouteArgs>(name);
+}
+
+class RosaryRouteArgs {
+  const RosaryRouteArgs({
+    required this.type,
+    this.key,
+  });
+
+  final MisteriesType type;
+
+  final Key? key;
+
+  @override
+  String toString() {
+    return 'RosaryRouteArgs{type: $type, key: $key}';
+  }
 }
 
 /// generated route for
@@ -238,20 +266,6 @@ class SettingsRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
-/// [PrayerSectionPage]
-class PrayerSectionRoute extends PageRouteInfo<void> {
-  const PrayerSectionRoute({List<PageRouteInfo>? children})
-      : super(
-          PrayerSectionRoute.name,
-          initialChildren: children,
-        );
-
-  static const String name = 'PrayerSectionRoute';
-
-  static const PageInfo<void> page = PageInfo<void>(name);
-}
-
-/// generated route for
 /// [RosarySectionPage]
 class RosarySectionRoute extends PageRouteInfo<void> {
   const RosarySectionRoute({List<PageRouteInfo>? children})
@@ -261,6 +275,20 @@ class RosarySectionRoute extends PageRouteInfo<void> {
         );
 
   static const String name = 'RosarySectionRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [PrayerSectionPage]
+class PrayerSectionRoute extends PageRouteInfo<void> {
+  const PrayerSectionRoute({List<PageRouteInfo>? children})
+      : super(
+          PrayerSectionRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'PrayerSectionRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
