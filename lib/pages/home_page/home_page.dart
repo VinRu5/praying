@@ -2,6 +2,7 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:praying/blocs/home_cubit/home_cubit.dart';
+import 'package:praying/theme/models/praying_theme.dart';
 import 'package:praying/widgets/card_image.dart';
 import 'package:praying/widgets/error_page.dart';
 import 'package:praying/widgets/pray_loader.dart';
@@ -59,15 +60,13 @@ class _HomePageState extends State<HomePage> {
                   const SizedBox(height: 24.0),
                   Text(
                     appData.title,
-                    style: Theme.of(context).textTheme.displayLarge,
+                    style: PrayingTheme.of(context)?.titleLarge,
                     textAlign: TextAlign.center,
                   ),
                   const SizedBox(height: 24.0),
                   Text(
                     appData.description,
-                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                          fontWeight: FontWeight.w500,
-                        ),
+                    style: PrayingTheme.of(context)?.bodyHome,
                     textAlign: TextAlign.center,
                   ),
                 ],

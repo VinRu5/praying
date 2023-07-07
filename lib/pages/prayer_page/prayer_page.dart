@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:praying/models/prayer.dart';
 import 'package:praying/theme/models/app_colors.dart';
+import 'package:praying/theme/models/praying_theme.dart';
 import 'package:praying/widgets/card_image.dart';
 
 @RoutePage()
@@ -52,14 +53,14 @@ class PrayerPage extends StatelessWidget {
             ),
             Text(
               prayer.title,
-              style: Theme.of(context).textTheme.displaySmall,
+              style: PrayingTheme.of(context)?.prayerTitle,
               textAlign: TextAlign.end,
             ),
             Padding(
               padding: const EdgeInsets.only(top: 32.0),
               child: Text(
                 prayer.text,
-                style: Theme.of(context).textTheme.bodyLarge,
+                style: PrayingTheme.of(context)?.prayerBody,
                 textAlign: TextAlign.center,
               ),
             ),

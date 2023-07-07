@@ -10,225 +10,9 @@ import 'app_colors.dart';
 class PrayingTheme {
   PrayingTheme._();
 
-  // -- TEXT STYLES -----------------------------
-  static const TextStyle _displayLargeLight = TextStyle(
-    color: AppColors.primaryColor,
-    fontFamily: 'Ranchers',
-    fontSize: 80.0,
-    letterSpacing: 3,
-  );
-
-  static const TextStyle _displayLargeDark = TextStyle(
-    color: AppColors.primaryColor,
-    fontFamily: 'Ranchers',
-    fontSize: 80.0,
-    letterSpacing: 3,
-  );
-
-  static const TextStyle _displayMediumLight = TextStyle(
-    color: AppColors.textLight,
-    fontFamily: 'Ranchers',
-    fontSize: 48.0,
-    letterSpacing: 3,
-  );
-
-  static const TextStyle _displayMediumDark = TextStyle(
-    color: AppColors.textDark,
-    fontFamily: 'Ranchers',
-    fontSize: 48.0,
-    letterSpacing: 3,
-  );
-
-  static const TextStyle _displaySmallLight = TextStyle(
-    color: AppColors.primaryColor,
-    fontFamily: 'Ranchers',
-    fontSize: 32.0,
-    letterSpacing: 3,
-  );
-
-  static const TextStyle _displaySmallDark = TextStyle(
-    color: AppColors.primaryColor,
-    fontFamily: 'Ranchers',
-    fontSize: 32.0,
-    letterSpacing: 3,
-  );
-
-  static const TextStyle _headlineLargeLight = TextStyle(
-    color: AppColors.textLight,
-    fontSize: 48.0,
-    fontWeight: FontWeight.w800,
-  );
-
-  static const TextStyle _headlineLargeDark = TextStyle(
-    color: AppColors.textDark,
-    fontSize: 48.0,
-    fontWeight: FontWeight.w800,
-  );
-
-  static const TextStyle _headlineMediumLight = TextStyle(
-    color: AppColors.textLight,
-    fontSize: 32.0,
-    fontWeight: FontWeight.w800,
-  );
-
-  static const TextStyle _headlineMediumDark = TextStyle(
-    color: AppColors.textDark,
-    fontSize: 32.0,
-    fontWeight: FontWeight.w800,
-  );
-
-  static const TextStyle _headlineSmallLight = TextStyle(
-    color: AppColors.textLight,
-    fontSize: 24.0,
-    fontWeight: FontWeight.w800,
-  );
-
-  static const TextStyle _headlineSmallDark = TextStyle(
-    color: AppColors.textDark,
-    fontSize: 24.0,
-    fontWeight: FontWeight.w800,
-  );
-
-  static const TextStyle _titleLargeLight = TextStyle(
-    color: AppColors.textLight,
-    fontSize: 48.0,
-    fontWeight: FontWeight.w700,
-  );
-
-  static const TextStyle _titleLargeDark = TextStyle(
-    color: AppColors.textDark,
-    fontSize: 48.0,
-    fontWeight: FontWeight.w700,
-  );
-
-  static const TextStyle _titleMediumLight = TextStyle(
-    color: AppColors.textLight,
-    fontSize: 32.0,
-    fontWeight: FontWeight.w700,
-  );
-
-  static const TextStyle _titleMediumDark = TextStyle(
-    color: AppColors.textDark,
-    fontSize: 32.0,
-    fontWeight: FontWeight.w700,
-  );
-
-  static const TextStyle _titleSmallLight = TextStyle(
-    color: AppColors.textLight,
-    fontSize: 24.0,
-    fontWeight: FontWeight.w700,
-  );
-
-  static const TextStyle _titleSmallDark = TextStyle(
-    color: AppColors.textDark,
-    fontSize: 24.0,
-    fontWeight: FontWeight.w700,
-  );
-
-  static const TextStyle _bodyLargeLight = TextStyle(
-    color: AppColors.textLight,
-    fontSize: 18.0,
-    fontWeight: FontWeight.w500,
-  );
-
-  static const TextStyle _bodyLargeDark = TextStyle(
-    color: AppColors.textDark,
-    fontSize: 18.0,
-    fontWeight: FontWeight.w500,
-  );
-
-  static const TextStyle _bodyMediumLight = TextStyle(
-    color: AppColors.textLight,
-    fontSize: 16.0,
-  );
-
-  static const TextStyle _bodyMediumDark = TextStyle(
-    color: AppColors.textDark,
-    fontSize: 16.0,
-  );
-
-  static const TextStyle _bodySmallLight = TextStyle(
-    color: AppColors.textLight,
-    fontSize: 13.0,
-  );
-
-  static const TextStyle _bodySmallDark = TextStyle(
-    color: AppColors.textDark,
-    fontSize: 13.0,
-  );
-
-  static const TextStyle _labelLargeLight = TextStyle(
-    color: AppColors.textLight,
-    fontSize: 15.0,
-    fontWeight: FontWeight.w500,
-  );
-
-  static const TextStyle _labelLargeDark = TextStyle(
-    color: AppColors.textDark,
-    fontSize: 15.0,
-    fontWeight: FontWeight.w500,
-  );
-
-  static const TextStyle _labelMediumLight = TextStyle(
-    color: AppColors.textLight,
-    fontSize: 13.0,
-  );
-
-  static const TextStyle _labelMediumDark = TextStyle(
-    color: AppColors.textDark,
-    fontSize: 13.0,
-  );
-
-  static const TextStyle _labelSmallLight = TextStyle(
-    color: AppColors.textLight,
-    fontSize: 11.0,
-  );
-
-  static const TextStyle _labelSmallDark = TextStyle(
-    color: AppColors.textDark,
-    fontSize: 11.0,
-  );
-  // ---------------------------------------------
-
-  // -- TEXT THEME -----------------------------
-  /// Specific text theme to LightMode
-  static const testThemeLight = TextTheme(
-    displayLarge: _displayLargeLight,
-    displayMedium: _displayMediumLight,
-    displaySmall: _displaySmallLight,
-    headlineLarge: _headlineLargeLight,
-    headlineMedium: _headlineMediumLight,
-    headlineSmall: _headlineSmallLight,
-    titleLarge: _titleLargeLight,
-    titleMedium: _titleMediumLight,
-    titleSmall: _titleSmallLight,
-    bodyLarge: _bodyLargeLight,
-    bodyMedium: _bodyMediumLight,
-    bodySmall: _bodySmallLight,
-    labelLarge: _labelLargeLight,
-    labelMedium: _labelMediumLight,
-    labelSmall: _labelSmallLight,
-  );
-
-  /// Specific text theme to DarkMode
-  static const testThemeDark = TextTheme(
-    displayLarge: _displayLargeDark,
-    displayMedium: _displayMediumDark,
-    displaySmall: _displaySmallDark,
-    headlineLarge: _headlineLargeDark,
-    headlineMedium: _headlineMediumDark,
-    headlineSmall: _headlineSmallDark,
-    titleLarge: _titleLargeDark,
-    titleMedium: _titleMediumDark,
-    titleSmall: _titleSmallDark,
-    bodyLarge: _bodyLargeDark,
-    bodyMedium: _bodyMediumDark,
-    bodySmall: _bodySmallDark,
-    labelLarge: _labelLargeDark,
-    labelMedium: _labelMediumDark,
-    labelSmall: _labelSmallDark,
-  );
-  // ---------------------------------------------
+  // ---- GET THEME EXTENSION ------------------
+  static PrayingThemeExtension? of(BuildContext context) =>
+      Theme.of(context).extension<PrayingThemeExtension>();
 
   // -- COLOR SCHEME -----------------------------
   /// Specific color scheme to LightMode
@@ -279,4 +63,89 @@ class PrayingTheme {
     color: AppColors.primaryColor,
   );
   // ---------------------------------------------
+}
+
+class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
+  static const TextStyle _titleLarge = TextStyle(
+    color: AppColors.primaryColor,
+    fontFamily: 'Ranchers',
+    fontSize: 80.0,
+    letterSpacing: 3,
+  );
+
+  static const TextStyle _bodyHome = TextStyle(
+    fontSize: 16.0,
+    fontWeight: FontWeight.w500,
+  );
+
+  static const TextStyle _appBarTitle = TextStyle(
+    fontSize: 32.0,
+    fontWeight: FontWeight.w800,
+  );
+
+  static const TextStyle _tileTitle = TextStyle(
+    fontSize: 18.0,
+    fontWeight: FontWeight.w500,
+  );
+
+  static const TextStyle _prayerTitle = TextStyle(
+    color: AppColors.primaryColor,
+    fontFamily: 'Ranchers',
+    fontSize: 32.0,
+    letterSpacing: 3,
+  );
+
+  static const TextStyle _prayerBody = TextStyle(
+    fontSize: 18.0,
+  );
+
+  final TextStyle titleLarge;
+  final TextStyle bodyHome;
+  final TextStyle appBarTitle;
+  final TextStyle tileTitle;
+  final TextStyle prayerTitle;
+  final TextStyle prayerBody;
+
+  PrayingThemeExtension({
+    this.titleLarge = _titleLarge,
+    this.bodyHome = _bodyHome,
+    this.appBarTitle = _appBarTitle,
+    this.tileTitle = _tileTitle,
+    this.prayerTitle = _prayerTitle,
+    this.prayerBody = _prayerBody,
+  });
+
+  @override
+  ThemeExtension<PrayingThemeExtension> copyWith({
+    TextStyle? titleLarge,
+    TextStyle? bodyHome,
+    TextStyle? appBarTitle,
+    TextStyle? tileTitle,
+    TextStyle? prayerTitle,
+    TextStyle? prayerBody,
+  }) =>
+      PrayingThemeExtension(
+        titleLarge: titleLarge ?? this.titleLarge,
+        bodyHome: bodyHome ?? this.bodyHome,
+        appBarTitle: appBarTitle ?? this.appBarTitle,
+        tileTitle: tileTitle ?? this.tileTitle,
+        prayerTitle: prayerTitle ?? this.prayerTitle,
+        prayerBody: prayerBody ?? this.prayerBody,
+      );
+
+  @override
+  ThemeExtension<PrayingThemeExtension> lerp(
+      covariant ThemeExtension<PrayingThemeExtension>? other, double t) {
+    if (other is! PrayingThemeExtension) {
+      return this;
+    }
+    return PrayingThemeExtension(
+      titleLarge: TextStyle.lerp(titleLarge, other.titleLarge, t)!,
+      bodyHome: TextStyle.lerp(bodyHome, other.bodyHome, t)!,
+      appBarTitle: TextStyle.lerp(appBarTitle, other.appBarTitle, t)!,
+      tileTitle: TextStyle.lerp(tileTitle, other.tileTitle, t)!,
+      prayerTitle: TextStyle.lerp(prayerTitle, other.prayerTitle, t)!,
+      prayerBody: TextStyle.lerp(prayerBody, other.prayerBody, t)!,
+    );
+  }
 }

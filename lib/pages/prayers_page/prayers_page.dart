@@ -7,6 +7,7 @@ import 'package:praying/models/prayer.dart';
 import 'package:praying/routers/app_router.dart';
 import 'package:praying/services/data_service.dart';
 import 'package:praying/theme/models/app_colors.dart';
+import 'package:praying/theme/models/praying_theme.dart';
 import 'package:praying/widgets/error_page.dart';
 import 'package:praying/widgets/pray_loader.dart';
 
@@ -83,7 +84,7 @@ class _ContentPage extends StatelessWidget {
           scrolledUnderElevation: 0,
           title: Text(
             title,
-            style: Theme.of(context).textTheme.headlineMedium,
+            style: PrayingTheme.of(context)?.appBarTitle,
           ),
         ),
         body: Padding(
@@ -121,14 +122,14 @@ class _ContentPage extends StatelessWidget {
                     Expanded(
                       child: Text(
                         prayers[index].title,
-                        style: Theme.of(context).textTheme.bodyLarge,
+                        style: PrayingTheme.of(context)?.tileTitle,
                       ),
                     ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
+                    const Padding(
+                      padding: EdgeInsets.all(8.0),
                       child: FaIcon(
                         FontAwesomeIcons.circleChevronRight,
-                        color: Theme.of(context).colorScheme.onSurface.withOpacity(.6),
+                        color: AppColors.primaryColor,
                       ),
                     ),
                   ],
