@@ -27,12 +27,6 @@ abstract class _$AppRouter extends RootStackRouter {
         child: const HomePage(),
       );
     },
-    MisericordinaRoute.name: (routeData) {
-      return AutoRoutePage<dynamic>(
-        routeData: routeData,
-        child: const MisericordinaPage(),
-      );
-    },
     DashboardRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
@@ -59,6 +53,36 @@ abstract class _$AppRouter extends RootStackRouter {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
         child: const EmptyPage(),
+      );
+    },
+    RosaryMainRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const RosaryMainPage(),
+      );
+    },
+    MisericordinaRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const MisericordinaPage(),
+      );
+    },
+    SettingsRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const SettingsPage(),
+      );
+    },
+    PrayerSectionRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const PrayerSectionPage(),
+      );
+    },
+    RosarySectionRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const RosarySectionPage(),
       );
     },
   };
@@ -88,20 +112,6 @@ class HomeRoute extends PageRouteInfo<void> {
         );
 
   static const String name = 'HomeRoute';
-
-  static const PageInfo<void> page = PageInfo<void>(name);
-}
-
-/// generated route for
-/// [MisericordinaPage]
-class MisericordinaRoute extends PageRouteInfo<void> {
-  const MisericordinaRoute({List<PageRouteInfo>? children})
-      : super(
-          MisericordinaRoute.name,
-          initialChildren: children,
-        );
-
-  static const String name = 'MisericordinaRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
@@ -181,6 +191,76 @@ class EmptyRoute extends PageRouteInfo<void> {
         );
 
   static const String name = 'EmptyRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [RosaryMainPage]
+class RosaryMainRoute extends PageRouteInfo<void> {
+  const RosaryMainRoute({List<PageRouteInfo>? children})
+      : super(
+          RosaryMainRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'RosaryMainRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [MisericordinaPage]
+class MisericordinaRoute extends PageRouteInfo<void> {
+  const MisericordinaRoute({List<PageRouteInfo>? children})
+      : super(
+          MisericordinaRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'MisericordinaRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [SettingsPage]
+class SettingsRoute extends PageRouteInfo<void> {
+  const SettingsRoute({List<PageRouteInfo>? children})
+      : super(
+          SettingsRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'SettingsRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [PrayerSectionPage]
+class PrayerSectionRoute extends PageRouteInfo<void> {
+  const PrayerSectionRoute({List<PageRouteInfo>? children})
+      : super(
+          PrayerSectionRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'PrayerSectionRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [RosarySectionPage]
+class RosarySectionRoute extends PageRouteInfo<void> {
+  const RosarySectionRoute({List<PageRouteInfo>? children})
+      : super(
+          RosarySectionRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'RosarySectionRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }

@@ -40,14 +40,14 @@ class PrayingTheme {
   );
 
   static const TextStyle _displaySmallLight = TextStyle(
-    color: AppColors.textLight,
+    color: AppColors.primaryColor,
     fontFamily: 'Ranchers',
     fontSize: 32.0,
     letterSpacing: 3,
   );
 
   static const TextStyle _displaySmallDark = TextStyle(
-    color: AppColors.textDark,
+    color: AppColors.primaryColor,
     fontFamily: 'Ranchers',
     fontSize: 32.0,
     letterSpacing: 3,

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:praying/models/prayer.dart';
 import 'package:praying/theme/models/app_colors.dart';
+import 'package:praying/widgets/card_image.dart';
 
 @RoutePage()
 class PrayerPage extends StatelessWidget {
@@ -27,11 +28,42 @@ class PrayerPage extends StatelessWidget {
               color: AppColors.primaryColor,
             ),
           ),
-          // title: Text(
-          //   "La mia preghiera",
-          //   style: Theme.of(context).textTheme.headlineMedium,
-          // ),
         ),
-        body: const Placeholder(),
+        body: ListView(
+          physics: const BouncingScrollPhysics(),
+          padding: const EdgeInsets.only(
+            bottom: 40.0,
+            left: 16.0,
+            right: 16.0,
+          ),
+          children: [
+            CardImage(
+              child: Container(
+                constraints: const BoxConstraints(
+                  maxHeight: 300.0,
+                  maxWidth: 700.0,
+                ),
+                child: Image.asset(
+                  "assets/images/${prayer.image}",
+                  fit: BoxFit.cover,
+                  alignment: Alignment.topCenter,
+                ),
+              ),
+            ),
+            Text(
+              prayer.title,
+              style: Theme.of(context).textTheme.displaySmall,
+              textAlign: TextAlign.end,
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 32.0),
+              child: Text(
+                prayer.text,
+                style: Theme.of(context).textTheme.bodyLarge,
+                textAlign: TextAlign.center,
+              ),
+            ),
+          ],
+        ),
       );
 }

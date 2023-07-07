@@ -26,9 +26,9 @@ class _DashboardPageState extends State<DashboardPage> {
     return AutoTabsRouter(
       routes: const [
         HomeRoute(),
-        RosaryRoute(),
+        RosaryMainRoute(),
         PrayersRoute(),
-        MisericordinaRoute(),
+        SettingsRoute(),
       ],
       transitionBuilder: (context, child, animation) => FadeTransition(
         opacity: animation,
