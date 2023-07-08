@@ -43,12 +43,27 @@ class RosaryPage extends StatelessWidget with AutoRouteWrapper {
         centerTitle: true,
         elevation: 0,
         scrolledUnderElevation: 0,
-        leading: IconButton(
-          onPressed: () => context.router.pop(),
-          icon: const FaIcon(
-            FontAwesomeIcons.circleChevronLeft,
-            color: AppColors.primaryColor,
-          ),
+        leading: BlocBuilder<RosaryCubit, RosaryState>(
+          builder: (context, state) {
+            return IconButton(
+              onPressed: () {
+                if (state is RosaryLoading ||
+                    state is RosaryError ||
+                    state is RosaryIntroLoaded ||
+                    state is RosaryFinalLoaded) {
+                  context.router.pop();
+                } else if (state is MisteriesLoaded) {
+                  context.read<RosaryCubit>().getRosaryIntro();
+                } else if (state is LitanyLoaded) {
+                  context.read<RosaryCubit>().getMisteries(type);
+                }
+              },
+              icon: const FaIcon(
+                FontAwesomeIcons.circleChevronLeft,
+                color: AppColors.primaryColor,
+              ),
+            );
+          },
         ),
         title: Text(
           "Rosario",
@@ -66,7 +81,10 @@ class RosaryPage extends StatelessWidget with AutoRouteWrapper {
           }
 
           if (state is RosaryIntroLoaded) {
-            return RosaryIntroPage(introRosary: state.rosaryIntro);
+            return RosaryIntroPage(
+              introRosary: state.rosaryIntro,
+              misteryType: type,
+            );
           }
 
           if (state is RosaryFinalLoaded) {

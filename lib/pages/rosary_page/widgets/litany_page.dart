@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:praying/blocs/rosary_cubit/rosary_cubit.dart';
 import 'package:praying/models/rosary/litany.dart';
 
 class LitanyPage extends StatelessWidget {
@@ -10,7 +12,13 @@ class LitanyPage extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
+  Widget build(BuildContext context) => Column(
+        children: [
+          Text("litany"),
+          FilledButton(
+            onPressed: () => context.read<RosaryCubit>().getRosaryFinal(),
+            child: Text("fine"),
+          ),
+        ],
+      );
 }

@@ -48,17 +48,17 @@ class _DashboardPageState extends State<DashboardPage> {
             notchBottomBarController: _notchController,
             notchColor: _getColors(tabsRouter.activeIndex),
             notchBorderColor: _getColors(tabsRouter.activeIndex),
-            color: Theme.of(context).primaryColor.withAlpha(25),
+            color: Theme.of(context).hoverColor,
             bottomBarItems: [
               BottomBarItem(
                 itemLabel: 'Home',
                 itemLabelStyle: Theme.of(context).textTheme.labelSmall?.copyWith(
-                      color: AppColors.iconHome,
+                      color: AppColors.primaryColor,
                       fontWeight: FontWeight.bold,
                     ),
                 inActiveItem: const FaIcon(
                   FontAwesomeIcons.house,
-                  color: AppColors.iconHome,
+                  color: AppColors.primaryColor,
                   size: _sizeDeactiveIcon,
                 ),
                 activeItem: const FaIcon(
@@ -70,12 +70,12 @@ class _DashboardPageState extends State<DashboardPage> {
               BottomBarItem(
                 itemLabel: 'Rosario',
                 itemLabelStyle: Theme.of(context).textTheme.labelSmall?.copyWith(
-                      color: AppColors.iconRosary,
+                      color: AppColors.primaryColor,
                       fontWeight: FontWeight.bold,
                     ),
                 inActiveItem: const FaIcon(
                   FontAwesomeIcons.solidHeart,
-                  color: AppColors.iconRosary,
+                  color: AppColors.primaryColor,
                   size: _sizeDeactiveIcon,
                 ),
                 activeItem: const FaIcon(
@@ -87,12 +87,12 @@ class _DashboardPageState extends State<DashboardPage> {
               BottomBarItem(
                 itemLabel: 'Preghiere',
                 itemLabelStyle: Theme.of(context).textTheme.labelSmall?.copyWith(
-                      color: AppColors.iconPrayer,
+                      color: AppColors.primaryColor,
                       fontWeight: FontWeight.bold,
                     ),
                 inActiveItem: const FaIcon(
                   FontAwesomeIcons.handsPraying,
-                  color: AppColors.iconPrayer,
+                  color: AppColors.primaryColor,
                   size: _sizeDeactiveIcon,
                 ),
                 activeItem: const FaIcon(
@@ -104,12 +104,12 @@ class _DashboardPageState extends State<DashboardPage> {
               BottomBarItem(
                 itemLabel: 'Misericordina',
                 itemLabelStyle: Theme.of(context).textTheme.labelSmall?.copyWith(
-                      color: AppColors.iconMisericordina,
+                      color: AppColors.primaryColor,
                       fontWeight: FontWeight.bold,
                     ),
                 inActiveItem: const FaIcon(
                   FontAwesomeIcons.handHoldingHeart,
-                  color: AppColors.iconMisericordina,
+                  color: AppColors.primaryColor,
                   size: _sizeDeactiveIcon,
                 ),
                 activeItem: const FaIcon(

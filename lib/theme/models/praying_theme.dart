@@ -73,9 +73,14 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
     letterSpacing: 3,
   );
 
-  static const TextStyle _bodyHome = TextStyle(
+  static const TextStyle _bodyText = TextStyle(
     fontSize: 16.0,
     fontWeight: FontWeight.w500,
+  );
+
+  static const TextStyle _bodyBold = TextStyle(
+    fontSize: 16.0,
+    fontWeight: FontWeight.w700,
   );
 
   static const TextStyle _appBarTitle = TextStyle(
@@ -99,6 +104,23 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
     fontSize: 18.0,
   );
 
+  static const TextStyle _prayerBodyMedium = TextStyle(
+    fontSize: 18.0,
+    fontWeight: FontWeight.w500,
+  );
+
+  static const TextStyle _prayerBodyItalic = TextStyle(
+    fontSize: 18.0,
+    fontWeight: FontWeight.w500,
+    fontStyle: FontStyle.italic,
+  );
+
+  static const TextStyle _prayerBodyItalicBold = TextStyle(
+    fontSize: 18.0,
+    fontWeight: FontWeight.w600,
+    fontStyle: FontStyle.italic,
+  );
+
   static const TextStyle _primaryButtonText = TextStyle(
     fontSize: 24.0,
     color: AppColors.textDark,
@@ -106,40 +128,56 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
   );
 
   final TextStyle titleLarge;
-  final TextStyle bodyHome;
+  final TextStyle bodyText;
+  final TextStyle bodyBold;
   final TextStyle appBarTitle;
   final TextStyle tileTitle;
   final TextStyle prayerTitle;
   final TextStyle prayerBody;
+  final TextStyle prayerBodyMedium;
+  final TextStyle prayerBodyItalic;
+  final TextStyle prayerBodyItalicBold;
   final TextStyle primaryButtonText;
 
   PrayingThemeExtension({
     this.titleLarge = _titleLarge,
-    this.bodyHome = _bodyHome,
+    this.bodyText = _bodyText,
+    this.bodyBold = _bodyBold,
     this.appBarTitle = _appBarTitle,
     this.tileTitle = _tileTitle,
     this.prayerTitle = _prayerTitle,
     this.prayerBody = _prayerBody,
+    this.prayerBodyMedium = _prayerBodyMedium,
+    this.prayerBodyItalic = _prayerBodyItalic,
+    this.prayerBodyItalicBold = _prayerBodyItalicBold,
     this.primaryButtonText = _primaryButtonText,
   });
 
   @override
   ThemeExtension<PrayingThemeExtension> copyWith({
     TextStyle? titleLarge,
-    TextStyle? bodyHome,
+    TextStyle? bodyText,
+    TextStyle? bodyBold,
     TextStyle? appBarTitle,
     TextStyle? tileTitle,
     TextStyle? prayerTitle,
     TextStyle? prayerBody,
+    TextStyle? prayerBodyMedium,
+    TextStyle? prayerBodyItalic,
+    TextStyle? prayerBodyItalicBold,
     TextStyle? primaryButtonText,
   }) =>
       PrayingThemeExtension(
         titleLarge: titleLarge ?? this.titleLarge,
-        bodyHome: bodyHome ?? this.bodyHome,
+        bodyText: bodyText ?? this.bodyText,
+        bodyBold: bodyBold ?? this.bodyBold,
         appBarTitle: appBarTitle ?? this.appBarTitle,
         tileTitle: tileTitle ?? this.tileTitle,
         prayerTitle: prayerTitle ?? this.prayerTitle,
         prayerBody: prayerBody ?? this.prayerBody,
+        prayerBodyMedium: prayerBodyMedium ?? this.prayerBodyMedium,
+        prayerBodyItalic: prayerBodyItalic ?? this.prayerBodyItalic,
+        prayerBodyItalicBold: prayerBodyItalicBold ?? this.prayerBodyItalicBold,
         primaryButtonText: primaryButtonText ?? this.primaryButtonText,
       );
 
@@ -151,11 +189,15 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
     }
     return PrayingThemeExtension(
       titleLarge: TextStyle.lerp(titleLarge, other.titleLarge, t)!,
-      bodyHome: TextStyle.lerp(bodyHome, other.bodyHome, t)!,
+      bodyText: TextStyle.lerp(bodyText, other.bodyText, t)!,
+      bodyBold: TextStyle.lerp(bodyBold, other.bodyBold, t)!,
       appBarTitle: TextStyle.lerp(appBarTitle, other.appBarTitle, t)!,
       tileTitle: TextStyle.lerp(tileTitle, other.tileTitle, t)!,
       prayerTitle: TextStyle.lerp(prayerTitle, other.prayerTitle, t)!,
       prayerBody: TextStyle.lerp(prayerBody, other.prayerBody, t)!,
+      prayerBodyMedium: TextStyle.lerp(prayerBodyMedium, other.prayerBodyMedium, t)!,
+      prayerBodyItalic: TextStyle.lerp(prayerBodyItalic, other.prayerBodyItalic, t)!,
+      prayerBodyItalicBold: TextStyle.lerp(prayerBodyItalicBold, other.prayerBodyItalicBold, t)!,
       primaryButtonText: TextStyle.lerp(primaryButtonText, other.primaryButtonText, t)!,
     );
   }

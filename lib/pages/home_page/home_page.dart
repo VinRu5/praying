@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
                   const SizedBox(height: 24.0),
                   Text(
                     appData.description,
-                    style: PrayingTheme.of(context)?.bodyHome,
+                    style: PrayingTheme.of(context)?.bodyText,
                     textAlign: TextAlign.center,
                   ),
                 ],

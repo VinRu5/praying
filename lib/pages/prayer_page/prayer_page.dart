@@ -39,16 +39,10 @@ class PrayerPage extends StatelessWidget {
           ),
           children: [
             CardImage(
-              child: Container(
-                constraints: const BoxConstraints(
-                  maxHeight: 300.0,
-                  maxWidth: 700.0,
-                ),
-                child: Image.asset(
-                  "assets/images/${prayer.image}",
-                  fit: BoxFit.cover,
-                  alignment: Alignment.topCenter,
-                ),
+              child: Image.asset(
+                "assets/images/${prayer.image}",
+                fit: BoxFit.cover,
+                alignment: Alignment.topCenter,
               ),
             ),
             Text(
