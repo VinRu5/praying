@@ -11,13 +11,35 @@ class RosaryLoading extends RosaryState {
   const RosaryLoading();
 }
 
-class RosaryLoaded extends RosaryState {
-  final Rosary rosary;
-  final Misericordina misericordina;
+class RosaryIntroLoaded extends RosaryState {
+  final IntroRosary rosaryIntro;
 
-  const RosaryLoaded(
-    this.rosary,
-    this.misericordina,
+  const RosaryIntroLoaded(
+    this.rosaryIntro,
+  );
+}
+
+class MisteriesLoaded extends RosaryState {
+  final Misteries misteries;
+
+  const MisteriesLoaded(
+    this.misteries,
+  );
+}
+
+class LitanyLoaded extends RosaryState {
+  final Litany litany;
+
+  const LitanyLoaded(
+    this.litany,
+  );
+}
+
+class RosaryFinalLoaded extends RosaryState {
+  final FinalRosary rosaryFinal;
+
+  const RosaryFinalLoaded(
+    this.rosaryFinal,
   );
 }
 
