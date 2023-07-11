@@ -127,6 +127,18 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
     fontWeight: FontWeight.w600,
   );
 
+  static const TextStyle _labelMistery = TextStyle(
+    fontSize: 14.0,
+    fontWeight: FontWeight.w600,
+    color: AppColors.primaryColor,
+  );
+
+  static const TextStyle _labelMenu = TextStyle(
+    fontSize: 13.0,
+    fontWeight: FontWeight.w500,
+    color: AppColors.primaryColor,
+  );
+
   final TextStyle titleLarge;
   final TextStyle bodyText;
   final TextStyle bodyBold;
@@ -138,6 +150,8 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
   final TextStyle prayerBodyItalic;
   final TextStyle prayerBodyItalicBold;
   final TextStyle primaryButtonText;
+  final TextStyle labelMistery;
+  final TextStyle labelMenu;
 
   PrayingThemeExtension({
     this.titleLarge = _titleLarge,
@@ -151,6 +165,8 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
     this.prayerBodyItalic = _prayerBodyItalic,
     this.prayerBodyItalicBold = _prayerBodyItalicBold,
     this.primaryButtonText = _primaryButtonText,
+    this.labelMistery = _labelMistery,
+    this.labelMenu = _labelMenu,
   });
 
   @override
@@ -166,6 +182,8 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
     TextStyle? prayerBodyItalic,
     TextStyle? prayerBodyItalicBold,
     TextStyle? primaryButtonText,
+    TextStyle? labelMistery,
+    TextStyle? labelMenu,
   }) =>
       PrayingThemeExtension(
         titleLarge: titleLarge ?? this.titleLarge,
@@ -179,6 +197,8 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
         prayerBodyItalic: prayerBodyItalic ?? this.prayerBodyItalic,
         prayerBodyItalicBold: prayerBodyItalicBold ?? this.prayerBodyItalicBold,
         primaryButtonText: primaryButtonText ?? this.primaryButtonText,
+        labelMistery: labelMistery ?? this.labelMistery,
+        labelMenu: labelMenu ?? this.labelMenu,
       );
 
   @override
@@ -199,6 +219,8 @@ class PrayingThemeExtension extends ThemeExtension<PrayingThemeExtension> {
       prayerBodyItalic: TextStyle.lerp(prayerBodyItalic, other.prayerBodyItalic, t)!,
       prayerBodyItalicBold: TextStyle.lerp(prayerBodyItalicBold, other.prayerBodyItalicBold, t)!,
       primaryButtonText: TextStyle.lerp(primaryButtonText, other.primaryButtonText, t)!,
+      labelMistery: TextStyle.lerp(labelMistery, other.labelMistery, t)!,
+      labelMenu: TextStyle.lerp(labelMenu, other.labelMenu, t)!,
     );
   }
 }

@@ -5,6 +5,7 @@ import 'package:praying/pages/dashboard_page/animated_notch_bottom_bar/animated_
 import 'package:praying/pages/dashboard_page/animated_notch_bottom_bar/notch_bottom_bar_utilities.dart';
 import 'package:praying/routers/app_router.dart';
 import 'package:praying/theme/models/app_colors.dart';
+import 'package:praying/theme/models/praying_theme.dart';
 
 @RoutePage()
 class DashboardPage extends StatefulWidget {
@@ -52,10 +53,7 @@ class _DashboardPageState extends State<DashboardPage> {
             bottomBarItems: [
               BottomBarItem(
                 itemLabel: 'Home',
-                itemLabelStyle: Theme.of(context).textTheme.labelSmall?.copyWith(
-                      color: AppColors.primaryColor,
-                      fontWeight: FontWeight.bold,
-                    ),
+                itemLabelStyle: PrayingTheme.of(context)?.labelMenu,
                 inActiveItem: const FaIcon(
                   FontAwesomeIcons.house,
                   color: AppColors.primaryColor,
@@ -69,10 +67,7 @@ class _DashboardPageState extends State<DashboardPage> {
               ),
               BottomBarItem(
                 itemLabel: 'Rosario',
-                itemLabelStyle: Theme.of(context).textTheme.labelSmall?.copyWith(
-                      color: AppColors.primaryColor,
-                      fontWeight: FontWeight.bold,
-                    ),
+                itemLabelStyle: PrayingTheme.of(context)?.labelMenu,
                 inActiveItem: const FaIcon(
                   FontAwesomeIcons.solidHeart,
                   color: AppColors.primaryColor,
@@ -86,10 +81,7 @@ class _DashboardPageState extends State<DashboardPage> {
               ),
               BottomBarItem(
                 itemLabel: 'Preghiere',
-                itemLabelStyle: Theme.of(context).textTheme.labelSmall?.copyWith(
-                      color: AppColors.primaryColor,
-                      fontWeight: FontWeight.bold,
-                    ),
+                itemLabelStyle: PrayingTheme.of(context)?.labelMenu,
                 inActiveItem: const FaIcon(
                   FontAwesomeIcons.handsPraying,
                   color: AppColors.primaryColor,
@@ -102,18 +94,15 @@ class _DashboardPageState extends State<DashboardPage> {
                 ),
               ),
               BottomBarItem(
-                itemLabel: 'Misericordina',
-                itemLabelStyle: Theme.of(context).textTheme.labelSmall?.copyWith(
-                      color: AppColors.primaryColor,
-                      fontWeight: FontWeight.bold,
-                    ),
+                itemLabel: 'Profilo',
+                itemLabelStyle: PrayingTheme.of(context)?.labelMenu,
                 inActiveItem: const FaIcon(
-                  FontAwesomeIcons.handHoldingHeart,
+                  FontAwesomeIcons.gear,
                   color: AppColors.primaryColor,
                   size: _sizeDeactiveIcon,
                 ),
                 activeItem: const FaIcon(
-                  FontAwesomeIcons.handHoldingHeart,
+                  FontAwesomeIcons.gear,
                   color: AppColors.iconOnPrimary,
                   size: _sizeActiveIcon,
                 ),
@@ -135,7 +124,7 @@ class _DashboardPageState extends State<DashboardPage> {
       case 2:
         return AppColors.iconPrayer;
       case 3:
-        return AppColors.iconMisericordina;
+        return AppColors.iconSettings;
       default:
         return AppColors.primaryColor;
     }
