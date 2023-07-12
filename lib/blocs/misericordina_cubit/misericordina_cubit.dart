@@ -9,7 +9,7 @@ class MisericordinaCubit extends Cubit<MisericordinaState> {
   final DataService dataService;
   MisericordinaCubit(this.dataService) : super(const MisericordinaLoading());
 
-  void getRosary() async {
+  void getMisericordina() async {
     try {
       final data = await dataService.readJson();
 
