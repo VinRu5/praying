@@ -1,16 +1,20 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:praying/models/prayer.dart';
+import 'package:praying/models/rosary/mysteries.dart';
 
 part 'rosary_action_state.dart';
 
-class PrayerActionCubit extends Cubit<PrayerActionState> {
-  PrayerActionCubit() : super(const RosaryActionUnselected());
+class RosaryActionCubit extends Cubit<RosaryActionState> {
+  RosaryActionCubit() : super(const RosaryActionUnselected());
 
-  void selectedRosary(Prayer prayer) {
+  void selectedRosary(MisteriesType? type) {
     emit(const RosaryActionUnselected());
     emit(
-      RosaryActionSelected(prayer: prayer),
+      RosaryActionSelected(type: type),
     );
+  }
+
+  void unselected() {
+    emit(const RosaryActionUnselected());
   }
 }

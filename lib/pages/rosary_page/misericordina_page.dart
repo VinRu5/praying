@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:praying/blocs/misericordina_cubit/misericordina_cubit.dart';
+import 'package:praying/blocs/rosary_action_cubit/rosary_action_cubit.dart';
 import 'package:praying/models/misericordina.dart';
 import 'package:praying/pages/rosary_page/widgets/bullet_selected_page.dart';
 import 'package:praying/services/data_service.dart';
@@ -13,63 +14,76 @@ import 'package:praying/theme/models/praying_theme.dart';
 import 'package:praying/widgets/card_image.dart';
 import 'package:praying/widgets/error_page.dart';
 import 'package:praying/widgets/pray_loader.dart';
+import 'package:praying/widgets/responsive_builder.dart';
 
 import 'widgets/rosary_beans.dart';
 
 @RoutePage()
-class MisericordinaPage extends StatelessWidget with AutoRouteWrapper {
+class MisericordinaPage extends StatelessWidget {
   const MisericordinaPage({super.key});
 
-  @override
-  Widget wrappedRoute(BuildContext context) => MultiBlocProvider(
-        providers: [
-          BlocProvider<MisericordinaCubit>(
-            create: (context) => MisericordinaCubit(
-              context.read<DataService>(),
-            )..getMisericordina(),
-          ),
-        ],
-        child: this,
-      );
+  // @override
+  // Widget wrappedRoute(BuildContext context) => MultiBlocProvider(
+  //       providers: [
+  //         BlocProvider<MisericordinaCubit>(
+  //           create: (context) => MisericordinaCubit(
+  //             context.read<DataService>(),
+  //           )..getMisericordina(),
+  //         ),
+  //       ],
+  //       child: this,
+  //     );
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        automaticallyImplyLeading: false,
-        centerTitle: true,
-        elevation: 0,
-        scrolledUnderElevation: 0,
-        leading: IconButton(
-          onPressed: () => context.router.pop(),
-          icon: const FaIcon(
-            FontAwesomeIcons.circleChevronLeft,
-            color: AppColors.primaryColor,
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider<MisericordinaCubit>(
+          create: (context) => MisericordinaCubit(
+            context.read<DataService>(),
+          )..getMisericordina(),
+        ),
+      ],
+      child: Scaffold(
+        appBar: AppBar(
+          automaticallyImplyLeading: false,
+          centerTitle: true,
+          elevation: 0,
+          scrolledUnderElevation: 0,
+          leading: IconButton(
+            onPressed: () => ResponsiveBuilder.isMobile(context)
+                ? context.router.pop()
+                : context.read<RosaryActionCubit>().unselected(),
+            icon: const FaIcon(
+              FontAwesomeIcons.circleChevronLeft,
+              color: AppColors.primaryColor,
+            ),
+          ),
+          title: Text(
+            "Misericordina",
+            style: PrayingTheme.of(context)?.appBarTitle,
           ),
         ),
-        title: Text(
-          "Misericordina",
-          style: PrayingTheme.of(context)?.appBarTitle,
+        body: BlocBuilder<MisericordinaCubit, MisericordinaState>(
+          builder: (context, state) {
+            if (state is MisericordinaLoading) {
+              return const PrayLoader();
+            }
+
+            if (state is MisericordinaError) {
+              return const ErrorPage(
+                  message: "Non siamo riusciti a caricare i tuoi dati.\nRiprova.");
+            }
+
+            if (state is MisericordinaLoaded) {
+              return _MisericordinaContent(
+                misericordina: state.misericordina,
+              );
+            }
+
+            return const SizedBox();
+          },
         ),
-      ),
-      body: BlocBuilder<MisericordinaCubit, MisericordinaState>(
-        builder: (context, state) {
-          if (state is MisericordinaLoading) {
-            return const PrayLoader();
-          }
-
-          if (state is MisericordinaError) {
-            return const ErrorPage(message: "Non siamo riusciti a caricare i tuoi dati.\nRiprova.");
-          }
-
-          if (state is MisericordinaLoaded) {
-            return _MisericordinaContent(
-              misericordina: state.misericordina,
-            );
-          }
-
-          return const SizedBox();
-        },
       ),
     );
   }

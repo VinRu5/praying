@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 
 typedef ResponsiveWidgetBuilder = Widget Function(BuildContext context, DeviceType devType);
@@ -38,6 +40,20 @@ class ResponsiveBuilder extends StatelessWidget {
   }
 
   static bool isMobile(context) => getDevType(context) == DeviceType.phone;
+
+  static bool get isPlatformMobile {
+    bool kisweb;
+    try {
+      if (Platform.isAndroid || Platform.isIOS) {
+        kisweb = true;
+      } else {
+        kisweb = false;
+      }
+    } catch (e) {
+      kisweb = false;
+    }
+    return kisweb;
+  }
 }
 
 enum DeviceType {

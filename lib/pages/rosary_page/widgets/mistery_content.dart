@@ -5,6 +5,7 @@ import 'package:praying/models/rosary/mystery.dart';
 import 'package:praying/pages/rosary_page/widgets/rosary_beans.dart';
 import 'package:praying/theme/models/praying_theme.dart';
 import 'package:praying/widgets/card_image.dart';
+import 'package:praying/widgets/responsive_builder.dart';
 
 class MisteryContent extends StatefulWidget {
   final Mystery mistery;
@@ -27,6 +28,7 @@ class _MisteryContentState extends State<MisteryContent> {
         physics: const BouncingScrollPhysics(),
         children: [
           CardImage(
+            maxHeight: ResponsiveBuilder.isMobile(context) ? 300.0 : 500.0,
             child: Image.asset(
               "assets/images/${widget.mistery.image}",
               fit: BoxFit.cover,

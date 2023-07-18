@@ -43,11 +43,10 @@ abstract class _$AppRouter extends RootStackRouter {
       final args = routeData.argsAs<RosaryRouteArgs>();
       return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: WrappedRoute(
-            child: RosaryPage(
+        child: RosaryPage(
           type: args.type,
           key: args.key,
-        )),
+        ),
       );
     },
     RosarySectionRoute.name: (routeData) {
@@ -59,13 +58,13 @@ abstract class _$AppRouter extends RootStackRouter {
     RosaryMainRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: const RosaryMainPage(),
+        child: WrappedRoute(child: const RosaryMainPage()),
       );
     },
     MisericordinaRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: WrappedRoute(child: const MisericordinaPage()),
+        child: const MisericordinaPage(),
       );
     },
     PrayerRoute.name: (routeData) {

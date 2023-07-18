@@ -1,18 +1,18 @@
 part of 'rosary_action_cubit.dart';
 
-abstract class PrayerActionState extends Equatable {
-  const PrayerActionState();
+abstract class RosaryActionState extends Equatable {
+  const RosaryActionState();
 
   @override
   List<Object> get props => [];
 }
 
-class RosaryActionUnselected extends PrayerActionState {
+class RosaryActionUnselected extends RosaryActionState {
   const RosaryActionUnselected();
 }
 
-class RosaryActionSelected extends PrayerActionState {
-  final Prayer prayer;
+class RosaryActionSelected extends RosaryActionState {
+  final MisteriesType? type;
 
-  const RosaryActionSelected({required this.prayer});
+  const RosaryActionSelected({required this.type});
 }
