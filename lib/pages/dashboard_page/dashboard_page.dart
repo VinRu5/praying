@@ -50,6 +50,7 @@ class _DashboardPageState extends State<DashboardPage> {
             notchColor: _getColors(tabsRouter.activeIndex),
             notchBorderColor: _getColors(tabsRouter.activeIndex),
             color: Theme.of(context).hoverColor,
+            bottomBarWidth: MediaQuery.of(context).size.width,
             bottomBarItems: [
               BottomBarItem(
                 itemLabel: 'Home',

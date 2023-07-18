@@ -21,6 +21,12 @@ abstract class _$AppRouter extends RootStackRouter {
         child: WrappedRoute(child: const PrayersPage()),
       );
     },
+    PrayerSectionRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const PrayerSectionPage(),
+      );
+    },
     HomeRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
@@ -44,20 +50,10 @@ abstract class _$AppRouter extends RootStackRouter {
         )),
       );
     },
-    PrayerRoute.name: (routeData) {
-      final args = routeData.argsAs<PrayerRouteArgs>();
+    RosarySectionRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: PrayerPage(
-          prayer: args.prayer,
-          key: args.key,
-        ),
-      );
-    },
-    EmptyRoute.name: (routeData) {
-      return AutoRoutePage<dynamic>(
-        routeData: routeData,
-        child: const EmptyPage(),
+        child: const RosarySectionPage(),
       );
     },
     RosaryMainRoute.name: (routeData) {
@@ -69,7 +65,18 @@ abstract class _$AppRouter extends RootStackRouter {
     MisericordinaRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: const MisericordinaPage(),
+        child: WrappedRoute(child: const MisericordinaPage()),
+      );
+    },
+    PrayerRoute.name: (routeData) {
+      final args = routeData.argsAs<PrayerRouteArgs>();
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: PrayerPage(
+          prayer: args.prayer,
+          showAppBar: args.showAppBar,
+          key: args.key,
+        ),
       );
     },
     SettingsRoute.name: (routeData) {
@@ -78,16 +85,10 @@ abstract class _$AppRouter extends RootStackRouter {
         child: const SettingsPage(),
       );
     },
-    RosarySectionRoute.name: (routeData) {
+    EmptyRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: const RosarySectionPage(),
-      );
-    },
-    PrayerSectionRoute.name: (routeData) {
-      return AutoRoutePage<dynamic>(
-        routeData: routeData,
-        child: const PrayerSectionPage(),
+        child: const EmptyPage(),
       );
     },
   };
@@ -103,6 +104,20 @@ class PrayersRoute extends PageRouteInfo<void> {
         );
 
   static const String name = 'PrayersRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [PrayerSectionPage]
+class PrayerSectionRoute extends PageRouteInfo<void> {
+  const PrayerSectionRoute({List<PageRouteInfo>? children})
+      : super(
+          PrayerSectionRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'PrayerSectionRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
@@ -173,52 +188,15 @@ class RosaryRouteArgs {
 }
 
 /// generated route for
-/// [PrayerPage]
-class PrayerRoute extends PageRouteInfo<PrayerRouteArgs> {
-  PrayerRoute({
-    required Prayer prayer,
-    Key? key,
-    List<PageRouteInfo>? children,
-  }) : super(
-          PrayerRoute.name,
-          args: PrayerRouteArgs(
-            prayer: prayer,
-            key: key,
-          ),
-          initialChildren: children,
-        );
-
-  static const String name = 'PrayerRoute';
-
-  static const PageInfo<PrayerRouteArgs> page = PageInfo<PrayerRouteArgs>(name);
-}
-
-class PrayerRouteArgs {
-  const PrayerRouteArgs({
-    required this.prayer,
-    this.key,
-  });
-
-  final Prayer prayer;
-
-  final Key? key;
-
-  @override
-  String toString() {
-    return 'PrayerRouteArgs{prayer: $prayer, key: $key}';
-  }
-}
-
-/// generated route for
-/// [EmptyPage]
-class EmptyRoute extends PageRouteInfo<void> {
-  const EmptyRoute({List<PageRouteInfo>? children})
+/// [RosarySectionPage]
+class RosarySectionRoute extends PageRouteInfo<void> {
+  const RosarySectionRoute({List<PageRouteInfo>? children})
       : super(
-          EmptyRoute.name,
+          RosarySectionRoute.name,
           initialChildren: children,
         );
 
-  static const String name = 'EmptyRoute';
+  static const String name = 'RosarySectionRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
@@ -252,6 +230,48 @@ class MisericordinaRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
+/// [PrayerPage]
+class PrayerRoute extends PageRouteInfo<PrayerRouteArgs> {
+  PrayerRoute({
+    required Prayer prayer,
+    bool showAppBar = true,
+    Key? key,
+    List<PageRouteInfo>? children,
+  }) : super(
+          PrayerRoute.name,
+          args: PrayerRouteArgs(
+            prayer: prayer,
+            showAppBar: showAppBar,
+            key: key,
+          ),
+          initialChildren: children,
+        );
+
+  static const String name = 'PrayerRoute';
+
+  static const PageInfo<PrayerRouteArgs> page = PageInfo<PrayerRouteArgs>(name);
+}
+
+class PrayerRouteArgs {
+  const PrayerRouteArgs({
+    required this.prayer,
+    this.showAppBar = true,
+    this.key,
+  });
+
+  final Prayer prayer;
+
+  final bool showAppBar;
+
+  final Key? key;
+
+  @override
+  String toString() {
+    return 'PrayerRouteArgs{prayer: $prayer, showAppBar: $showAppBar, key: $key}';
+  }
+}
+
+/// generated route for
 /// [SettingsPage]
 class SettingsRoute extends PageRouteInfo<void> {
   const SettingsRoute({List<PageRouteInfo>? children})
@@ -266,29 +286,15 @@ class SettingsRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
-/// [RosarySectionPage]
-class RosarySectionRoute extends PageRouteInfo<void> {
-  const RosarySectionRoute({List<PageRouteInfo>? children})
+/// [EmptyPage]
+class EmptyRoute extends PageRouteInfo<void> {
+  const EmptyRoute({List<PageRouteInfo>? children})
       : super(
-          RosarySectionRoute.name,
+          EmptyRoute.name,
           initialChildren: children,
         );
 
-  static const String name = 'RosarySectionRoute';
-
-  static const PageInfo<void> page = PageInfo<void>(name);
-}
-
-/// generated route for
-/// [PrayerSectionPage]
-class PrayerSectionRoute extends PageRouteInfo<void> {
-  const PrayerSectionRoute({List<PageRouteInfo>? children})
-      : super(
-          PrayerSectionRoute.name,
-          initialChildren: children,
-        );
-
-  static const String name = 'PrayerSectionRoute';
+  static const String name = 'EmptyRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
