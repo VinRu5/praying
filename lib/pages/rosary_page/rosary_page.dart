@@ -25,18 +25,6 @@ class RosaryPage extends StatelessWidget {
     super.key,
   });
 
-  // @override
-  // Widget wrappedRoute(BuildContext context) => MultiBlocProvider(
-  //       providers: [
-  //         BlocProvider<RosaryCubit>(
-  //           create: (context) => RosaryCubit(
-  //             context.read<DataService>(),
-  //           )..getRosaryIntro(),
-  //         ),
-  //       ],
-  //       child: this,
-  //     );
-
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(

@@ -37,3 +37,36 @@ class AppStyles {
 
   static TextTheme textTheme(BuildContext context) => Theme.of(context).textTheme;
 }
+
+enum ThemeType {
+  system,
+  light,
+  dark,
+}
+
+extension ThemeExtensions on ThemeType {
+  static resolveMaterialStateProperty(Color color) => MaterialStateProperty.resolveWith((states) {
+        const Set<MaterialState> interactiveStates = <MaterialState>{
+          MaterialState.pressed,
+          MaterialState.hovered,
+          MaterialState.focused,
+          MaterialState.selected,
+        };
+
+        if (states.any(interactiveStates.contains)) {
+          return color;
+        }
+        return null;
+      });
+
+  String? localize(BuildContext context) {
+    switch (this) {
+      case ThemeType.system:
+        return "Tema Sistema";
+      case ThemeType.light:
+        return "Tema Chiaro";
+      case ThemeType.dark:
+        return "Tema Scuro";
+    }
+  }
+}

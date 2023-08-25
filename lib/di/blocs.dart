@@ -6,4 +6,7 @@ List<BlocProvider> _blocs = [
       context.read<DataService>(),
     ),
   ),
+  BlocProvider<ThemeCubit>(
+    create: (context) => ThemeCubit(),
+  ),
 ];

@@ -22,18 +22,6 @@ import 'widgets/rosary_beans.dart';
 class MisericordinaPage extends StatelessWidget {
   const MisericordinaPage({super.key});
 
-  // @override
-  // Widget wrappedRoute(BuildContext context) => MultiBlocProvider(
-  //       providers: [
-  //         BlocProvider<MisericordinaCubit>(
-  //           create: (context) => MisericordinaCubit(
-  //             context.read<DataService>(),
-  //           )..getMisericordina(),
-  //         ),
-  //       ],
-  //       child: this,
-  //     );
-
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
@@ -187,8 +175,12 @@ class _MisericordinaContentState extends State<_MisericordinaContent> {
             bulletNumber: 5,
             pageSelctedIndex: pageSelected,
             onPressed: (value) {
-              // setState(() => pageSelected = value);
-              // _pageController.jumpToPage(value);
+              setState(() {
+                if (pageSelected != value) {
+                  selectedIndex = -1;
+                }
+                pageSelected = value;
+              });
             },
           ),
           Padding(
@@ -221,10 +213,8 @@ class _MisericordinaContentState extends State<_MisericordinaContent> {
                       onTap: () {
                         if (pageSelected < 5) {
                           if (selectedIndex >= -1 && selectedIndex < 9) {
-                            print('incremento');
                             setState(() => selectedIndex++);
                           } else {
-                            print("azzero");
                             setState(() {
                               selectedIndex = -1;
                               pageSelected++;

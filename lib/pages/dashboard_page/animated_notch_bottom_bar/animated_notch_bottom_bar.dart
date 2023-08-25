@@ -16,17 +16,8 @@ class AnimatedNotchBottomBar extends StatefulWidget {
   /// Color of bottom bar
   final Color color;
 
-  /// Boolean to show shadow
-  //final bool showShadow;
-
-  /// Boolean to show bottom text
-  //final bool showLabel;
-
   /// TextStyle to show bottom text
   final TextStyle? itemLabelStyle;
-
-  ///Boolean to show blur effect
-  //final bool showBlurBottomBar;
 
   /// Color of bottom bar
   final Color notchColor;
@@ -39,9 +30,6 @@ class AnimatedNotchBottomBar extends StatefulWidget {
 
   /// bottom bar width for web and desktop apps (It should be greater then 500 otherwise it will take media query width)
   final double bottomBarWidth;
-
-  /// Hide side and bottom margins of bottom navigation bar
-  //final bool removeMargins;
 
   const AnimatedNotchBottomBar({
     Key? key,
