@@ -1,4 +1,4 @@
-package com.example.praying
+package me.dev.vinrus.praying
 
 import io.flutter.embedding.android.FlutterActivity
 
